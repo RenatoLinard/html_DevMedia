@@ -31,5 +31,8 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 ### html
   - É a tag raiz de toda estrutura, todas as tags precisam está contidas dentro de ```<html> </html>``` com excessão o DOCTYPE
 
+### head
+- Tag responsável por receber informações importantes referente ao documento, tais como título, metadados, entre outras.
+
 
 
