@@ -10,8 +10,9 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 - A criação de um arquivo é html precisa da extensao .html
 - Quando lido corretamente pelo navegador dá origem a uma pagina web, com o qual o usuario pode interagir
 
-## Por dentro da estrutura html
+# Por dentro da estrutura HTML
 
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,5 +24,8 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
     <p></p>
   </body>
 </html>
-  
+```
+
+Neste trecho, você pode ver a estrutura básica de uma página HTML. O documento começa com `<!DOCTYPE html>` e tem um elemento `html` que contém `head` e `body`. O `head` é onde você pode definir a codificação do documento e o título da página. O `body` é onde você coloca o conteúdo visível da página, como títulos e parágrafos.
+```
 
