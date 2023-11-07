@@ -4,3 +4,4 @@ Este repositório contém anotações e exemplos referentes ao curso de HTML ofe
 
 - **Módulo: Fundamentos do HTML**
   - [Fundamentos do html](https://github.com/RenatoLinard/html_DevMedia/blob/main/Fundamentos%20do%20html.md)
+    
