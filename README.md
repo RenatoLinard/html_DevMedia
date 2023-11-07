@@ -1,2 +1,2 @@
 # Html_DevMedia
-anotações referente ao curso de HTML da plataforma Devmedia
+anotações e exemplos referente ao curso de HTML da plataforma Devmedia
