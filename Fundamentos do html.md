@@ -43,5 +43,8 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 ### ```<body></body>```
   - Onde todo conteúdo disponibilizado para o usuário interagir estará contido
 
+### ```<p></p>```
+  - Parágrafo de um texto
+
 
 
