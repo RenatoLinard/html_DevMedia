@@ -40,7 +40,8 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 ### ```<title></title>```
   - Fica contido da tag head e informa o título da pagina localizada na aba superior do navegador
 
-### ```<body></body>
+### ```<body></body>```
+  - Onde todo conteúdo disponibilizado para o usuário interagir estará contido
 
 
 
