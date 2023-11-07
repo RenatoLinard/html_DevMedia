@@ -25,7 +25,7 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
   </body>
 </html>
 ```
-### DOCTYPE
+### ```<DOCTYPE>```
   - Tratra-se da instrução de qual versão do html que será renderizado, no caso ```<!DOCTYPE html>``` representa a versão 5
 
 ### html
@@ -39,6 +39,8 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 
 ### title
   - Fica contido da tag head e informa o título da pagina localizada na aba superior do navegador
+
+### bod
 
 
 
