@@ -11,7 +11,7 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 - Quando lido corretamente pelo navegador dá origem a uma pagina web, com o qual o usuario pode interagir
 
 ## Por dentro da estrutura html
- ´´´shell
+
   <!DOCTYPE html>
   <html>
     <head>
@@ -24,4 +24,4 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
       </p>
     </body>
   <html>
-´´´
+
