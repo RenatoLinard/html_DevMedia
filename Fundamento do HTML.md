@@ -12,17 +12,16 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 
 ## Por dentro da estrutura html
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset = "utf-8">
-      <title> </title>
-    <head>
-    <body>
-      <h1> </h1>
-      <p> 
-      </p>
-    </body>
-  <html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1></h1>
+    <p></p>
+  </body>
+</html>
   
 
