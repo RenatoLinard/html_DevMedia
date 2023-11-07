@@ -34,5 +34,11 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 ### head
 - Tag responsável por receber informações importantes referente ao documento, tais como título, metadados, entre outras.
 
+### meta 
+  - Informa o navegador qual codificação de caracteres utilizamos quando o documento foi escrito
+
+### title
+  - Fica contido da tag head e informa o título da pagina localizada na aba superior do navegador
+
 
 
