@@ -5,4 +5,4 @@ Nesse arquivo vamos aprender a usar as tags básicas do html:
   - ```<p></p>``` - criar parágrafos
   - ```<a></a>``` - criar um link
   - ```<img>``` - exibir uma imagem
-  - ```<div></div> - agrupar elementos
+  - ```<div></div>``` - agrupar elementos
