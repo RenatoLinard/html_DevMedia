@@ -16,4 +16,4 @@ Nesse arquivo vamos aprender a usar as tags básicas do html:
 
 ## Conceitos
 
-```<title><title>``` 
+- Tag title: ```<title><title>``` 
