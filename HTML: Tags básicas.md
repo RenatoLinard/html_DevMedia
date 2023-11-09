@@ -32,7 +32,7 @@
   - Hierarquia:
       - Os títulos possuem uma hierarquia, o h1 é o mais importante enquanto o h6 o menos importante.
 
-  - Deve ser utilizada dentro da tag ```<body>```.
+  - Deve ser utilizada entre as tags de abertura e fechamento ```<body> ... </body>```.
 
   - Exemplo de uso:
     ```html
@@ -46,6 +46,6 @@
     ```
 
 - Tag ```<p></p>```:
-  - dsds
-
+  - Parágrafo é utilizado para separar ou agrupar conteúdos que estão relacionados
+  - Assim como ```<h1>``` a tag ```<p>``` deve ser utilizado entre as tags de abertura e fechamento ```<body> ... </body>```
     
