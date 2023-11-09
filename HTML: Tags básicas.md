@@ -47,5 +47,6 @@
 
 - Tag ```<p></p>```:
   - Parágrafo é utilizado para separar ou agrupar conteúdos que estão relacionados
+    
   - Assim como ```<h1>``` a tag ```<p>``` deve ser utilizado entre as tags de abertura e fechamento ```<body> ... </body>```
     
