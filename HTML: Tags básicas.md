@@ -73,7 +73,7 @@
     - href:
       - A url para onde a página será redirecionada ```<a href="https://github.com/RenatoLinard"> Github </a>```
         
-      - Um número de telefone ```<a href="tel:+5567998811748" +55 67 998811748 </a>```
+      - Um número de telefone ```<a href="tel:+5567998811748"> +55 67 998811748 </a>```
         
       - Um endereço de email ```<a href="mailto: renatolinardjr@gmail.com"> Enviar email </a>```
 
