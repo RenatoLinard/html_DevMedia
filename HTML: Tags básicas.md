@@ -1,6 +1,6 @@
 # Introdução
 
-## Nesse arquivo vamos aprender a usar as tags básicas do html:
+### Nesse arquivo vamos aprender a usar as tags básicas do html:
 
   - ```<title></title>``` - Exibe o título de uma página web
     
