@@ -28,5 +28,10 @@
 
 - Tag ```<h1...h6></<h1...h6>```:
   - Os títulos ou cabeçalhos são utilizados para identificar os assuntos de uma página
+
   - Hierarquia:
-      - cxcx
+      - Os títulos possuem uma hierarquia, o h1 é o mais importante enquanto o h6 o menos importante.
+
+  - Deve ser utilizada dentro da tag ```<body>```.
+
+  - Exemplo de uso ```<body> ...Conteudo... </body>```.
