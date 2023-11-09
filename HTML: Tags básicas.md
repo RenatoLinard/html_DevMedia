@@ -16,4 +16,4 @@ Nesse arquivo vamos aprender a usar as tags básicas do html:
 
 ## Conceitos
 
-- Tag ```<title><title>``` - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página  
+- Tag ```<title><title>``` - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página e tem sua importância para os mecanismos de busca, como o Google
