@@ -50,3 +50,14 @@
     
   - Assim como ```<h1>``` a tag ```<p>``` deve ser utilizado entre as tags de abertura e fechamento ```<body> ... </body>```
     
+  - Lembrando que dentro da tag ```<p>``` podemos usar tags para tornar o parágrafo mais interativo
+    
+  - Exemplo de uso:
+    ```html
+    <body>
+      <p>
+        Isso é um parágrafo
+      </p>
+    </body>
+    ```
+    
