@@ -37,10 +37,10 @@
   - Exemplo de uso:
     ```html
     <body>
-      <h1> Título </h1>
-        <h2> Título </h2>
-          <h3> Título </h3>
+      <h1> Título nivel 1 </h1>
+        <h2> Título nivel 2 </h2>
+          <h3> Título nivel 3 </h3>
           ...
-            <h6> Título </h6>
+            <h6> Título nivel 6 </h6>
     </body>
     ```
