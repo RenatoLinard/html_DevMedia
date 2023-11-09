@@ -34,4 +34,13 @@
 
   - Deve ser utilizada dentro da tag ```<body>```.
 
-  - Exemplo de uso ```<body> ...Conteudo... </body>```.
+  - Exemplo de uso:
+    ```html
+    <body>
+      <h1> Título </h1>
+        <h2> Título </h2>
+          <h3> Título </h3>
+          ...
+            <h6> Título </h6>
+    </body>
+    ```
