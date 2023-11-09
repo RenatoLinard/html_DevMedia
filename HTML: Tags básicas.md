@@ -16,7 +16,8 @@ Nesse arquivo vamos aprender a usar as tags básicas do html:
 
 ## Conceitos
 
-- Tag ```<title><title>``` - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página e tem sua importância para os mecanismos de busca, como o Google. Portando precisa ser relevante e relacionado ao conteúdo da pagina
+- Tag ```<title></title>```:
+  - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página e tem sua importância para os mecanismos de busca, como o Google. Portando precisa ser relevante e relacionado ao conteúdo da pagina
   - Deve ser utilizada dentro da tag ```<head>```
   - Caso a tag title não seja definida no arquivo html, o título que aparecerá na aba da página será o nome do arquivo
   - exemplo de uso ```<title>Tags básicas do HTML - Tag Title</title>```
