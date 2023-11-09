@@ -25,3 +25,5 @@
   - Caso a tag title não seja definida no arquivo html, o título que aparecerá na aba da página será o nome do arquivo.
     
   - Exemplo de uso ```<title>Tags básicas do HTML - Tag Title</title>```.
+
+- Tag ```<h1,h2,h3,h4,h5,h6></<h1,h2,h3,h4,h5,h6>```:
