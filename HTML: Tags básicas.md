@@ -27,4 +27,6 @@
   - Exemplo de uso ```<title>Tags básicas do HTML - Tag Title</title>```.
 
 - Tag ```<h1...h6></<h1...h6>```:
-  - Os títulos ou cabeçalhos são utilizados para identificar os assuntos de uma página 
+  - Os títulos ou cabeçalhos são utilizados para identificar os assuntos de uma página
+  - Hierarquia:
+      - 
