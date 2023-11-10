@@ -128,6 +128,21 @@
   ### Tag ```<span>```:
   - Utilizado para marcar palavras que mereçam algum tipo de destaque
  
-  - Não possui nenhuma aparência visual, porem pode ser estilizado através do CSS
+  - Não possui nenhuma aparência visual, porem pode ser adicionado estilos através do CSS
  
   - Ao marcar palavras podemos organizar nosso código
+ 
+  - Exemplo de uso:
+    ```html
+    <div>
+      <h3>
+        <span>Notebook Lenovo Ideapad</span> S145 8ª Intel Core I5 8GB 1TB HD 15,6" W10 Prata
+      </h3>
+
+      <p>
+        Com o Notebook da Lenovo você terá um notebook de <span>última geração</span>,
+        prático e <span>veloz</span>, com excelente capacidade de <span>armazenamento</span>,
+        design inovador e exclusivo.
+      </p>
+    </div>
+    ```
