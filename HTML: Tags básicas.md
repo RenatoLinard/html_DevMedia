@@ -16,7 +16,7 @@
 
 ## Conceitos
 
-- Tag ```<title>```:
+- ###Tag ```<title>```:
   
   - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página e tem sua importância para os mecanismos de busca, como o Google. Portando precisa ser relevante e relacionado ao conteúdo da página.
   
@@ -31,7 +31,7 @@
     </head>
     ```
 
-- Tag ```<h1...h6>```:
+- ###Tag ```<h1...h6>```:
   - Os títulos ou cabeçalhos são utilizados para identificar os assuntos de uma página
 
   - Hierarquia:
@@ -50,7 +50,7 @@
     </body>
     ```
 
-- Tag ```<p>```:
+- ###Tag ```<p>```:
   - Parágrafo é utilizado para separar ou agrupar conteúdos que estão relacionados
     
   - Assim como ```<h1>``` a tag ```<p>``` deve ser utilizado entre as tags de abertura e fechamento ```<body> ... </body>```
@@ -66,7 +66,7 @@
     </body>
     ```
 
-- Tag ```<a>```:
+- ###Tag ```<a>```:
   - Serve para criar uma ligação entre uma página e outra quando é clicado sobre o link
  
   - A tag ```<a>``` possui algumas propriedades que estão relacionados ao link:
@@ -91,7 +91,7 @@
       </a>
     ```
 
-- Tag ```<img>```:
+- ###Tag ```<img>```:
   - Serve basicamente para exibir uma imagem na página
     
   - Sua estrutura de elemento é composta por uma tag única
@@ -105,7 +105,7 @@
     - alt: Texto que descreve a imagem
       - ```<img src="desktop.jpg" alt="Computador desktop completo">``` - Caso ocorra um erro ao carregar a imagem o valor do atributo alt será exibido para usuário
 
-- Tag ```<div>```:
+- ###Tag ```<div>```:
   - Usada para agrupar elementos na página
     
   - Não possui nenhuma aparência visual
@@ -125,7 +125,7 @@
       </div>
     ```
 
-- Tag ```<span>```:
+- ###Tag ```<span>```:
   - Utilizado para marcar palavras que mereçam algum tipo de destaque
  
   - Não possui nenhuma aparência visual, porem pode ser estilizado através do CSS
