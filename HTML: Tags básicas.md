@@ -97,11 +97,10 @@
   - Sua estrutura de elemento é composta por uma tag única
     
   - Propriedades:
-    -src: Caminho da imagem que será exibido
-    
-      -```<img src="desktop.jpg" >``` - Imagem no mesmo diretório do projeto
-    
-      -```<img src="https://github.com/RenatoLinard/wallpaper/blob/main/screen_bash.png" >``` - Imagem de uma URL externa
+    - src: Caminho da imagem que será exibido    
+      - ```<img src="desktop.jpg" >``` - Imagem no mesmo diretório do projeto
+
+      - ```<img src="https://github.com/RenatoLinard/wallpaper/blob/main/screen_bash.png" >``` - Imagem de uma URL externa
     
  
 
