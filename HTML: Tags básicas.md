@@ -112,4 +112,15 @@
     
   - Utilizamos a tag de abertura, os elementos a serem agrupados e a tag de fechamento
 
-  - Realizamos o agrupamento para organizar e juntar informações relacionadas deixando o código mais organizado
+  - Realizamos o agrupamento para juntar informações relacionadas deixando o código mais organizado
+ 
+  - Exemplo de uso:
+    ```html
+      <div>
+        <img src="computador.jpg" alt="Notebook Lenovo Ideapad S145"
+          title="Notebook Lenovo">
+        <a href="pagina2.html">
+          Abrir descrição do produto
+        </a>
+      </div>
+    ```
