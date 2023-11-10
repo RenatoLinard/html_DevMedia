@@ -18,7 +18,7 @@
 
 - Tag ```<title></title>```:
   
-  - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página e tem sua importância para os mecanismos de busca, como o Google. Portando precisa ser relevante e relacionado ao conteúdo da pagina.
+  - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página e tem sua importância para os mecanismos de busca, como o Google. Portando precisa ser relevante e relacionado ao conteúdo da página.
   
   - Deve ser utilizada dentro da tag ```<head>```.
     
@@ -67,22 +67,22 @@
     ```
 
 - Tag ```<a></a>```:
-  - Serve para criar uma ligação entre uma pagina e outra quando é clicado sobre o link
+  - Serve para criar uma ligação entre uma página e outra quando é clicado sobre o link
  
   - A tag ```<a>``` possui algumas propriedades que estão relacionados ao link:
     - href:
-      - A url para onde a página será redirecionada ```<a href="https://github.com/RenatoLinard"> Github </a>```
+      - A url para onde a página será redirecionada ```<a href="https://github.com/RenatoLinard"> GitHub </a>```
         
-      - Um número de telefone ```<a href="tel:+5567998811748"> +55 67 998811748 </a>```
+      - Um número de telefone ```<a href="tel: +5567998811748"> +55 67 998811748 </a>```
         
-      - Um endereço de email ```<a href="mailto: renatolinardjr@gmail.com"> Enviar email </a>```
+      - Um endereço de e-mail ```<a href="mailto: renatolinardjr@gmail.com"> Enviar e-mail </a>```
 
-    - target: Por padrão ao clicar em um link a nova pagina será aberta na mesma aba substituindo a página atual. Essa propriedade nos permite alterar esse comportamento:
+    - target: Por padrão ao clicar em um link a nova página será aberta na mesma aba substituindo a página atual. Essa propriedade nos permite alterar esse comportamento:
       - _self: Abre a URL na mesma aba do navegador
-        ```<a href="https://github.com/RenatoLinard" target="_self"> Github </a>```
+        ```<a href="https://github.com/RenatoLinard" target="_self"> GitHub </a>```
         
       - _blank: Abre a URL em uma nova aba do navegador
-        ```<a href="https://github.com/RenatoLinard" target="_blank"> Github </a>```
+        ```<a href="https://github.com/RenatoLinard" target="_blank"> GitHub </a>```
  
   - Exemplo de uso:
     ```html
@@ -104,21 +104,12 @@
      
     - alt: Texto que descreve a imagem
       - ```<img src="desktop.jpg" alt="Computador desktop completo">``` - Caso ocorra um erro ao carregar a imagem o valor do atributo alt será exibido para usuário
+
+- Tag ```<div>```:
+  - Usada para agrupar elementos na página
     
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - Não possui nenhuma aparência visual
     
+  - Utilizamos a tag de abertura, os elementos a serem agrupados e a tag de fechamento
+
+  - Realizamos o agrupamento para organizar e juntar informações relacionadas deixando o código mais organizado
