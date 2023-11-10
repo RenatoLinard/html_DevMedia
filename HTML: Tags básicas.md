@@ -124,3 +124,10 @@
         </a>
       </div>
     ```
+
+- Tag ```<span>```:
+  - Utilizado para marcar palavras que mereçam algum tipo de destaque
+ 
+  - Não possui nenhuma aparência visual, porem pode ser estilizado através do CSS
+ 
+  - Ao marcar palavras podemos organizar nosso código
