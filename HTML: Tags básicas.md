@@ -98,13 +98,12 @@
     
   - Propriedades:
     - src: Caminho da imagem que será exibido    
-      - ```
-        <img src="desktop.jpg">``` - Imagem no mesmo diretório do projeto
+      - ```<img src="desktop.jpg">``` - Imagem no mesmo diretório do projeto
 
       - ```<img src="https://github.com/RenatoLinard/wallpaper/blob/main/screen_bash.png">``` - Imagem de uma URL externa
      
     - alt: Texto que descreve a imagem
-      - ```<img src="desktop.jpg" alt="Computador desktop completo">```
+      - ```<img src="desktop.jpg" alt="Computador desktop completo">``` - Caso ocorra um erro ao carregar a imagem o valor do atributo alt será exibido para usuário
     
  
 
