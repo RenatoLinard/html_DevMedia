@@ -16,7 +16,7 @@
 
 ## Conceitos
 
-- Tag ```<title></title>```:
+- Tag ```<title>```:
   
   - Permite que o usuário identifique o tipo de conteúdo que ele pode esperar dentro daquela página e tem sua importância para os mecanismos de busca, como o Google. Portando precisa ser relevante e relacionado ao conteúdo da página.
   
@@ -31,7 +31,7 @@
     </head>
     ```
 
-- Tag ```<h1...h6></<h1...h6>```:
+- Tag ```<h1...h6>```:
   - Os títulos ou cabeçalhos são utilizados para identificar os assuntos de uma página
 
   - Hierarquia:
@@ -50,7 +50,7 @@
     </body>
     ```
 
-- Tag ```<p></p>```:
+- Tag ```<p>```:
   - Parágrafo é utilizado para separar ou agrupar conteúdos que estão relacionados
     
   - Assim como ```<h1>``` a tag ```<p>``` deve ser utilizado entre as tags de abertura e fechamento ```<body> ... </body>```
@@ -66,7 +66,7 @@
     </body>
     ```
 
-- Tag ```<a></a>```:
+- Tag ```<a>```:
   - Serve para criar uma ligação entre uma página e outra quando é clicado sobre o link
  
   - A tag ```<a>``` possui algumas propriedades que estão relacionados ao link:
