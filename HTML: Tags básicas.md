@@ -158,7 +158,19 @@
      - **src**: É a URL da página externa
 
      - **width e length**: Definem respectivamente a largura e a altura do iframe
+    
+     - Exemplo de uso:
+       ```html
+        <div>
+          <h3>Previsão do tempo</h3>
 
+          <p>Veja o como está o clima hoje.</p>
 
+          <iframe
+            src="https://www.accuweather.com/"
+            width="600" height="450"
+          >
+          </iframe>
 
-
+        </div>
+       ```
