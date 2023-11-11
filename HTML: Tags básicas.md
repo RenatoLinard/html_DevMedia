@@ -70,18 +70,18 @@
   - Serve para criar uma ligação entre uma página e outra quando é clicado sobre o link
  
   - A tag ```<a>``` possui algumas propriedades que estão relacionados ao link:
-    - href:
+    - **href**:
       - A url para onde a página será redirecionada ```<a href="https://github.com/RenatoLinard"> GitHub </a>```
         
       - Um número de telefone ```<a href="tel: +5567998811748"> +55 67 998811748 </a>```
         
       - Um endereço de e-mail ```<a href="mailto: renatolinardjr@gmail.com"> Enviar e-mail </a>```
 
-    - target: Por padrão ao clicar em um link a nova página será aberta na mesma aba substituindo a página atual. Essa propriedade nos permite alterar esse comportamento:
-      - _self: Abre a URL na mesma aba do navegador
+    - **target**: Por padrão ao clicar em um link a nova página será aberta na mesma aba substituindo a página atual. Essa propriedade nos permite alterar esse comportamento:
+      - **_self**: Abre a URL na mesma aba do navegador
         ```<a href="https://github.com/RenatoLinard" target="_self"> GitHub </a>```
         
-      - _blank: Abre a URL em uma nova aba do navegador
+      - **_blank**: Abre a URL em uma nova aba do navegador
         ```<a href="https://github.com/RenatoLinard" target="_blank"> GitHub </a>```
  
   - Exemplo de uso:
@@ -97,12 +97,12 @@
   - Sua estrutura de elemento é composta por uma tag única
     
   - Propriedades:
-    - src: Caminho da imagem que será exibido    
+    - **src**: Caminho da imagem que será exibido    
       - ```<img src="desktop.jpg">``` - Imagem no mesmo diretório do projeto
 
       - ```<img src="https://github.com/RenatoLinard/wallpaper/blob/main/screen_bash.png">``` - Imagem de uma URL externa
      
-    - alt: Texto que descreve a imagem
+    - **alt**: Texto que descreve a imagem
       - ```<img src="desktop.jpg" alt="Computador desktop completo">``` - Caso ocorra um erro ao carregar a imagem o valor do atributo alt será exibido para usuário
 
   ### Tag ```<div>```:
@@ -146,3 +146,33 @@
       </p>
     </div>
     ```
+
+ ### Tag ```<iframe>```:
+   - Serve para incorporar o conteúdo de uma página externa para dentro do nosso site
+
+   - É util para trazer informações de alguma pagina externa sem a nessidade do usuario sair do nosso site
+
+   - A estrutura da tag é composta por tag de abertura e fechamento
+
+   - Propriedades:
+     - **src**: É a URL da página externa
+
+     - **width e length**: Definem respectivamente a largura e a altura do iframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
