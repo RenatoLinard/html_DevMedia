@@ -185,3 +185,15 @@ ros sites possuem URL específica para utilização da tag, exemplo disso é o G
       </iframe>
     </div>
     ```
+
+### Tag ```<!-- -->```
+- Tag Utilizada para criar comentários dentro do código fonte 
+
+- Não aparece dentro da pagina web
+
+- Comentários são essenciais para documentar e explicar o código fonte.
+
+- Exemplo de uso:
+    ```html
+      <!-- Isso é um comentário -->
+    ```
