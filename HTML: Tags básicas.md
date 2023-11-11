@@ -154,6 +154,8 @@
 
    - A estrutura da tag é composta por tag de abertura e fechamento
 
+   - Existem alguns sites que não permite a utilização da URL para utilizar com a tag ```<iframe>``` impedindo o carregamento no nosso site
+
    - Propriedades:
      - **src**: É a URL da página externa
 
@@ -171,6 +173,7 @@
             width="600" height="450"
           >
           </iframe>
-
         </div>
        ```
+
+  
