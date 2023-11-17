@@ -10,7 +10,7 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
 - A criação de um arquivo é html precisa da extensao .html
 - Quando lido corretamente pelo navegador dá origem a uma pagina web, com o qual o usuario pode interagir
 
-# Por dentro da estrutura HTML
+## Por dentro da estrutura HTML
 
 ```html
 <!DOCTYPE html>

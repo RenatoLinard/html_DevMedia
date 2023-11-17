@@ -1,4 +1,4 @@
-# Introdução
+## Introdução
 
 ### Neste arquivo, aprenderemos a utilizar as tags básicas do HTML:
 
