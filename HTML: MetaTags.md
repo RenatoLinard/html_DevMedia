@@ -1,4 +1,8 @@
 # Introdução
 
-Uma das primeiras coisas que fazemos quando iniciamos a criação de um arquivo
-html é definir o conteudo do cabeçalho, como titulos e meta tags.
+### Ao iniciar a criação de um arquivo HTML, 
+### uma das primeiras etapas consiste em estabelecer o conteúdo do cabeçalho, 
+### incluindo títulos e meta tags.
+
+
+
