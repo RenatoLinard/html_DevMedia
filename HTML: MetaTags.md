@@ -12,5 +12,7 @@ Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas consiste em 
 
 - Ficam localizadas na seção de cabeçalho da página 
 - São todo o conteúdo escrito entre as tags ```<head></head>```
+- A Tag ```<title>``` é um exemplo de tag de cabeçalho e serve para definir o título de uma página
+- Outro exemplo é a tag ```<link>``` que serve para adicionar um arquivo de estilo CSS.
 
 
