@@ -16,9 +16,9 @@ Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas consiste em 
 - Outro exemplo é a tag ```<link>``` que serve para adicionar um arquivo CSS externo na página.
 - Exemplo:
     ```
-        <head>
-            <title> Título do documento </title>
-            <link rel="stylesheet" type="text/css" href="style.css"/>
-        </head>
+    <head>
+        <title> Título do documento </title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
 
     ```
