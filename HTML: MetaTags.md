@@ -24,3 +24,45 @@ Exemplo:
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 ```
+
+### ```<title>```
+
+- Utilizada para definir o título de uma página exibida no topo do navegador (aba)
+- Seu uso é obrigatório para que o documento seja validado
+```html
+    <head>
+        <title> Título da Página </title>
+    </head>
+```
+
+### ```<meta name="description">```
+
+- Utilizada para definir a descrição de uma página
+- Apesar de não ser visível para o usuário será útil para buscadores e outros serviços web
+- Exemplo de uso:
+    ```html
+        <head>
+            <meta name="description" content="Esse é uma resumo pessoal seguindo o cronograma do curso de html da plataforma devmedia">
+        </head>
+    ``
+
+- O texto localizado dentro do atributo content é a descrição da página, que será lida pelos buscadores 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
