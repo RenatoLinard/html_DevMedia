@@ -40,11 +40,11 @@ Exemplo:
 - Utilizada para definir a descrição de uma página
 - Apesar de não ser visível para o usuário será útil para buscadores e outros serviços web
 - Exemplo de uso:
-    ```html
-        <head>
-            <meta name="description" content="Esse é uma resumo pessoal seguindo o cronograma do curso de html da plataforma devmedia">
-        </head>
-    ``
+```html
+    <head>
+        <meta name="description" content="Esse é uma resumo pessoal seguindo o cronograma do curso de html da plataforma devmedia">
+    </head>
+```
 
 - O texto localizado dentro do atributo content é a descrição da página, que será lida pelos buscadores 
 
@@ -54,11 +54,11 @@ Exemplo:
 - Esse conjunto de caracter é o responsável por exibir acentos e caracteres especiais
 - A especificação do html 5 recomenda o uso de conjunto de caracteres utf-8, por ser completo e possuir símbolos do mundo todo
 - Exemplo de uso:
-    ```html
-        <head>
-            <meta charset="utf-8">
-        </head>
-    ```
+```html
+    <head>
+        <meta charset="utf-8">
+    </head>
+```
 
 
 
