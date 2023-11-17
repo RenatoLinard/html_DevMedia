@@ -2,23 +2,25 @@
 
 Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas consiste em estabelecer o conteúdo do cabeçalho, incluindo títulos e meta tags.
 
-### Nessa sessão vamos trabalhar com as seguintes tags:
-    - title
-    - meta (description, charset, viewport, robots)
-    - link 
-    - style
+### Nesta seção, abordaremos as seguintes tags:
+
+- `title`
+- `meta` (description, charset, viewport, robots)
+- `link`
+- `style`
 
 ### Tags de cabeçalho
 
-- Ficam localizadas na seção de cabeçalho da página 
-- São todo o conteúdo escrito entre as tags ```<head></head>```
-- A Tag ```<title>``` é um exemplo de tag de cabeçalho e serve para definir o título de uma página
-- Outro exemplo é a tag ```<link>``` que serve para adicionar um arquivo CSS externo na página.
-- Exemplo:
-    ```
-    <head>
-        <title> Título do documento </title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-    </head>
+- As tags de cabeçalho são localizadas na seção de cabeçalho da página.
+- Todo o conteúdo está contido entre as tags `<head></head>`.
+- Um exemplo de tag de cabeçalho é a `<title>`, que é usada para definir o título de uma página.
+- Outro exemplo é a tag `<link>`, que permite adicionar um arquivo CSS externo à página.
+  
+Exemplo:
 
-    ```
+```html
+<head>
+    <title>Título do Documento</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+```
