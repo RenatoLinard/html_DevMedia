@@ -8,4 +8,9 @@ Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas consiste em 
     - link 
     - style
 
+### Tags de cabeçalho
+
+- Ficam localizadas na seção de cabeçalho da página 
+- São todo o conteúdo escrito entre as tags ```<head></head>```
+
 
