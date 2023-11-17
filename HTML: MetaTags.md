@@ -48,6 +48,18 @@ Exemplo:
 
 - O texto localizado dentro do atributo content é a descrição da página, que será lida pelos buscadores 
 
+### ```<meta charset="">```
+
+- É utilizada para informar ao navegador o conjunto de caracteres utilizados na página
+- Esse conjunto de caracter é o responsável por exibir acentos e caracteres especiais
+- A especificação do html 5 recomenda o uso de conjunto de caracteres utf-8, por ser completo e possuir símbolos do mundo todo
+- Exemplo de uso:
+    ```html
+        <head>
+            <meta charset="utf-8">
+        </head>
+    ```
+
 
 
 
