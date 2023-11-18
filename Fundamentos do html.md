@@ -1,16 +1,16 @@
-## O que é HTML?
+# HTML: Linguagem de Marcação para Estruturação de Páginas Web
 
-O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para estruturar páginas web. Todo o conteúdo que desejamos que o navegador exiba para o usuário é contido entre tags, sinalizando para o navegador o que cada componente representa. O texto entre os sinais de `<` e `>` é chamado de elemento e, na maioria das vezes, é composto por tags de abertura e fechamento, como por exemplo `<p></p>`. O que será exibido pelo navegador é o conteúdo entre as tags de abertura e fechamento.
+O HTML (Hypertext Markup Language) é uma linguagem de marcação amplamente utilizada para estruturar páginas web. O conteúdo destinado à exibição no navegador é delimitado por tags, indicando ao navegador a função de cada componente. Elementos, representados pelo texto entre os sinais `<` e `>`, geralmente consistem em tags de abertura e fechamento, como `<p></p>`. O que é renderizado pelo navegador é o conteúdo entre essas tags.
 
-## Uma linguagem de tags e atributos
-- As tags descrevem para o navegador o que cada elemento representa.
-- Os atributos são compostos por um par de chaves e valores, e os valores são sempre escritos entre aspas duplas.
+## Uma Linguagem de Tags e Atributos
+- Tags descrevem a função de cada elemento para o navegador.
+- Atributos são compostos por pares de chave e valor, sendo que os valores são sempre inseridos entre aspas duplas.
 
-## Criando um arquivo html
-- A criação de um arquivo é html precisa da extensao .html
-- Quando lido corretamente pelo navegador dá origem a uma pagina web, com o qual o usuario pode interagir
+## Criação de um Arquivo HTML
+- Um arquivo HTML deve ter a extensão .html.
+- Quando interpretado corretamente pelo navegador, resulta em uma página web interativa para o usuário.
 
-## Por dentro da estrutura HTML
+## Estrutura HTML Essencial
 
 ```html
 <!DOCTYPE html>
@@ -25,26 +25,26 @@ O HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para
   </body>
 </html>
 ```
-### ```<DOCTYPE>```
-  - Tratra-se da instrução de qual versão do html que será renderizado, no caso ```<!DOCTYPE html>``` representa a versão 5
 
-### ```<html></html>```
-  - É a tag raiz de toda estrutura, todas as tags precisam está contidas dentro de ```<html> </html>``` com excessão o DOCTYPE
+### `<!DOCTYPE>`
+- Instrução que especifica a versão do HTML a ser renderizada; por exemplo, `<!DOCTYPE html>` representa a versão 5.
 
-### ```<head></head>```
-- Tag responsável por receber informações importantes referente ao documento, tais como título, metadados, entre outras.
+### `<html></html>`
+- Tag raiz que engloba toda a estrutura; todas as outras tags devem estar contidas entre `<html> </html>`, exceto o DOCTYPE.
 
-### ```<meta charset="utf-8">```
-  - Informa o navegador qual codificação de caracteres utilizamos quando o documento foi escrito
+### `<head></head>`
+- Responsável por conter informações essenciais sobre o documento, como título, metadados, entre outros.
 
-### ```<title></title>```
-  - Fica contido da tag head e informa o título da pagina localizada na aba superior do navegador
+### `<meta charset="utf-8">`
+- Indica ao navegador a codificação de caracteres utilizada no documento.
 
-### ```<body></body>```
-  - Onde todo conteúdo disponibilizado para o usuário interagir estará contido
+### `<title></title>`
+- Localizado dentro da tag head, define o título da página exibido na aba do navegador.
 
-### ```<p></p>```
-  - Parágrafo de um texto
+### `<body></body>`
+- Contém todo o conteúdo interativo disponibilizado para o usuário.
 
+### `<p></p>`
+- Representa um parágrafo de texto.
 
 

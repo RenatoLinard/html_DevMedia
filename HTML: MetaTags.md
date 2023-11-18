@@ -1,6 +1,8 @@
+# Criação de Arquivo HTML: Tags de Cabeçalho e Seções
+
 ## Introdução
 
-Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas consiste em estabelecer o conteúdo do cabeçalho, incluindo títulos e meta tags.
+Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas é estabelecer o conteúdo do cabeçalho, incluindo títulos e meta tags.
 
 ### Nesta seção, abordaremos as seguintes tags:
 
@@ -9,11 +11,11 @@ Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas consiste em 
 - `link`
 - `style`
 
-### Tags de cabeçalho
+### Tags de Cabeçalho
 
-- As tags de cabeçalho são localizadas na seção de cabeçalho da página.
+- As tags de cabeçalho estão localizadas na seção de cabeçalho da página.
 - Todo o conteúdo está contido entre as tags `<head></head>`.
-- Um exemplo de tag de cabeçalho é a `<title>`, que é usada para definir o título de uma página.
+- Um exemplo de tag de cabeçalho é a `<title>`, usada para definir o título de uma página.
 - Outro exemplo é a tag `<link>`, que permite adicionar um arquivo CSS externo à página.
   
 Exemplo:
@@ -25,48 +27,50 @@ Exemplo:
 </head>
 ```
 
-### ```<title>```
+### Tag `<title>`
 
-- Utilizada para definir o título de uma página exibida no topo do navegador (aba)
-- Seu uso é obrigatório para que o documento seja validado
+- Usada para definir o título de uma página exibida no topo do navegador (aba).
+- Seu uso é obrigatório para validar o documento.
+
 ```html
 <head>
     <title> Título da Página </title>
 </head>
 ```
 
-### ```<meta name="description">```
+### Tag `<meta name="description">`
 
-- Utilizada para definir a descrição de uma página
-- Apesar de não ser visível para o usuário será útil para buscadores e outros serviços web
+- Utilizada para definir a descrição de uma página.
+- Apesar de não ser visível para o usuário, é útil para buscadores e outros serviços web.
 - Exemplo de uso:
-- O texto localizado dentro do atributo content é a descrição da página, que será lida pelos buscadores 
+
 ```html
 <head>
-    <meta name="description" content="Esse é uma resumo pessoal seguindo o cronograma do curso de html da plataforma devmedia">
+    <meta name="description" content="Esse é um resumo pessoal seguindo o cronograma do curso de HTML da plataforma DevMedia">
 </head>
 ```
 
-### ```<meta charset="">```
+### Tag `<meta charset="">`
 
-- É utilizada para informar ao navegador o conjunto de caracteres utilizados na página
-- Esse conjunto de caracter é o responsável por exibir acentos e caracteres especiais
-- A especificação do html 5 recomenda o uso de conjunto de caracteres utf-8, por ser completo e possuir símbolos do mundo todo
+- Informa ao navegador o conjunto de caracteres utilizados na página.
+- O conjunto de caracteres utf-8 é recomendado pela especificação do HTML 5 por ser completo e possuir símbolos do mundo todo.
 - Exemplo de uso:
+
 ```html
 <head>
     <meta charset="utf-8">
 </head>
 ```
 
-### ```<meta name="robots" content="noindex">```
+### Tag `<meta name="robots" content="noindex">`
 
-- Utilizada para quando queremos que a página não apareça nos resultados de buscas
-- È útil para páginas de relátorios, sistemas administrativos e páginas com dados pessoais
+- Utilizada quando não desejamos que a página apareça nos resultados de buscas.
+- Útil para páginas de relatórios, sistemas administrativos e páginas com dados pessoais.
 - Exemplo de uso:
+
 ```html
 <meta name="robots" content="noindex">
-``` 
+```
  
 
 
