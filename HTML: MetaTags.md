@@ -108,6 +108,8 @@ Exemplo:
     - `<content="width=device-width">` - Ajusta a largura do conteúdo para a mesma largura da tela do dispositivo 
     - `<content="initial-scale=1.0">` - Defini o zoom inicial da página (1.0 - sem zoom) 
 
+### Tag `<link rel="stylesheet" href="style.css">`
+
 
 
 
