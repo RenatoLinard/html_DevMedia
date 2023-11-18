@@ -60,6 +60,15 @@ Exemplo:
 </head>
 ```
 
+### ```<meta name="robots" content="noindex">```
+
+- Utilizada para quando queremos que a página não apareça nos resultados de buscas
+- È útil para páginas de relátorios, sistemas administrativos e páginas com dados pessoais
+- Exemplo de uso:
+```html
+<meta name="robots" content="noindex">
+``` 
+- 
 
 
 
