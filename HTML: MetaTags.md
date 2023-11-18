@@ -71,6 +71,29 @@ Exemplo:
 ```html
 <meta name="robots" content="noindex">
 ```
+
+### Tag `<meta name="robots" content="nofollow">`
+
+- Além do noindex existe outro tipo de uso para a tag robots, o nofollow
+- Os bucadores acessam o conteúdo de páginas em busca de informação
+- Sem a meta tag nofollow , o buscador vai navegar pelos links internos e associá-los a nossa página
+- Se não desejamos associar links externos, como os provenientes de uma página de comentários, podemos adicionar a meta tag para evitar a vinculação desses links externos à nossa página.
+- Exemplo de uso:
+
+```html
+<meta name="robots" content="nofollow">
+```
+
+### Tag noindex e nofollow
+
+- Em resumo, ao utilizar a tag noindex, instruímos o mecanismo de busca a não exibir nossa página nos resultados de pesquisa. No entanto, isso não impede a associação de links. Por outro lado, ao empregar a tag nofollow, indicamos ao mecanismo de busca que não associe os links à nossa página.
+- E se desejarmos utilizar ambos simultaneamente? A resposta é simples: basta separar os dois com uma vírgula.
+- Isso é útil para post de fórum
+- Exemplo de uso:
+
+```html
+<meta name="robots" content="noindex, nofollow">
+```
  
 
 
