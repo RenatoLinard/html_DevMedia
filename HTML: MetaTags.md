@@ -108,7 +108,38 @@ Exemplo:
     - `<content="width=device-width">` - Ajusta a largura do conteúdo para a mesma largura da tela do dispositivo 
     - `<content="initial-scale=1.0">` - Defini o zoom inicial da página (1.0 - sem zoom) 
 
-### Tag `<link rel="stylesheet" href="style.css">`
+### Adicionando Estilos CSS Externos
+
+Primeiramente, é importante compreender o que é o CSS.
+
+- CSS é uma linguagem que possibilita a estilização de elementos em uma página HTML.
+- Podemos modificar a cor do texto, cor de fundo, tamanho da fonte e muitos outros aspectos utilizando CSS.
+
+### HTML e CSS
+
+- A integração dos estilos CSS com o HTML é realizada de três maneiras: externa, interna e inline.
+- Neste contexto, aprenderemos a realizar a integração de forma externa.
+- Para isso, utilizaremos a tag `<link>`.
+
+### Tag `<link rel="stylesheet">`
+
+- A tag `link` quando utilizada junto do atributo `rel="stylesheet"` serve para adicionar um arwuivo CSS a uma página HTML
+- Exemplo de uso:
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+Entendendo a tag:
+    - `<rel="stylesheet">` - Informa que estamos carregando um arquivo de estilos
+    - `<href="style.css">` - Determina o caminho do aruivo a ser carregado
+
+Além das propriedades `rel` e `href` temos a propriedade opcional `type` que indica o tipo de arquivo a ser importado 
+
+```html
+<link rel="stylesheet" href="style.css" type="text/css">
+```
+
+Quando não inserimos o `type` o navegador vai identificar o tipo atravez da propriedade `rel` 
 
 
 
