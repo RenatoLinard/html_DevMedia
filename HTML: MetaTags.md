@@ -94,9 +94,19 @@ Exemplo:
 ```html
 <meta name="robots" content="noindex, nofollow">
 ```
- 
 
+### Tag `<meta name="viewport">`
 
+- Serve para ajustar o conteudo de uma página independente do tamanho do disposito utilizado pelo usuario
+- Exemplo de uso:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+- Entendo a meta tag:
+    - `<content="width=device-width">` - Ajusta a largura do conteúdo para a mesma largura da tela do dispositivo 
+    - `<content="initial-scale=1.0">` - Defini o zoom inicial da página (1.0 - sem zoom) 
 
 
 
