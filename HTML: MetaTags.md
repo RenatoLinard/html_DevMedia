@@ -4,20 +4,10 @@
 
 Ao iniciar a criação de um arquivo HTML, uma das primeiras etapas é estabelecer o conteúdo do cabeçalho, incluindo títulos e meta tags.
 
-### Nesta seção, abordaremos as seguintes tags:
-
-- `title`
-- `meta` (description, charset, viewport, robots)
-- `link`
-- `style`
-
 ### Tags de Cabeçalho
 
-- As tags de cabeçalho estão localizadas na seção de cabeçalho da página.
-- Todo o conteúdo está contido entre as tags `<head></head>`.
-- Um exemplo de tag de cabeçalho é a `<title>`, usada para definir o título de uma página.
-- Outro exemplo é a tag `<link>`, que permite adicionar um arquivo CSS externo à página.
-  
+As tags de cabeçalho estão localizadas na seção de cabeçalho da página, contendo todo o seu conteúdo entre as tags `<head></head>`. Um exemplo de tag de cabeçalho é a `<title>`, usada para definir o título de uma página. Outro exemplo é a tag `<link>`, que permite adicionar um arquivo CSS externo à página.
+
 Exemplo:
 
 ```html
@@ -27,10 +17,18 @@ Exemplo:
 </head>
 ```
 
+### Tags Abordadas
+
+Na sequência, abordaremos as seguintes tags de cabeçalho:
+
+- `title`
+- `meta` (description, charset, viewport, robots)
+- `link`
+- `style`
+
 ### Tag `<title>`
 
-- Usada para definir o título de uma página exibida no topo do navegador (aba).
-- Seu uso é obrigatório para validar o documento.
+A tag `<title>` é usada para definir o título de uma página exibida no topo do navegador (aba). Seu uso é obrigatório para validar o documento.
 
 ```html
 <head>
@@ -40,9 +38,7 @@ Exemplo:
 
 ### Tag `<meta name="description">`
 
-- Utilizada para definir a descrição de uma página.
-- Apesar de não ser visível para o usuário, é útil para buscadores e outros serviços web.
-- Exemplo de uso:
+A `<meta name="description">` é utilizada para definir a descrição de uma página, sendo útil para buscadores e outros serviços web.
 
 ```html
 <head>
@@ -52,9 +48,7 @@ Exemplo:
 
 ### Tag `<meta charset="">`
 
-- Informa ao navegador o conjunto de caracteres utilizados na página.
-- O conjunto de caracteres utf-8 é recomendado pela especificação do HTML 5 por ser completo e possuir símbolos do mundo todo.
-- Exemplo de uso:
+A `<meta charset="">` informa ao navegador o conjunto de caracteres utilizados na página. O conjunto de caracteres utf-8 é recomendado pela especificação do HTML 5 por ser completo e possuir símbolos do mundo todo.
 
 ```html
 <head>
@@ -62,34 +56,33 @@ Exemplo:
 </head>
 ```
 
-### Tag `<meta name="robots" content="noindex">`
+### Tags `<meta name="robots">`
 
-- Utilizada quando não desejamos que a página apareça nos resultados de buscas.
-- Útil para páginas de relatórios, sistemas administrativos e páginas com dados pessoais.
-- Exemplo de uso:
+#### `<meta name="robots" content="noindex">`
+
+Utilizada quando não desejamos que a página apareça nos resultados de buscas, sendo útil para páginas de relatórios, sistemas administrativos e páginas com dados pessoais.
+
+Exemplo de uso:
 
 ```html
 <meta name="robots" content="noindex">
 ```
 
-### Tag `<meta name="robots" content="nofollow">`
+#### `<meta name="robots" content="nofollow">`
 
-- Além do noindex existe outro tipo de uso para a tag robots, o nofollow
-- Os bucadores acessam o conteúdo de páginas em busca de informação
-- Sem a meta tag nofollow , o buscador vai navegar pelos links internos e associá-los a nossa página
-- Se não desejamos associar links externos, como os provenientes de uma página de comentários, podemos adicionar a meta tag para evitar a vinculação desses links externos à nossa página.
-- Exemplo de uso:
+Além do `noindex`, existe outro tipo de uso para a tag `robots`, o `nofollow`. Os buscadores acessam o conteúdo de páginas em busca de informação. Sem a meta tag `nofollow`, o buscador vai navegar pelos links internos e associá-los à nossa página. Se não desejamos associar links externos, como os provenientes de uma página de comentários, podemos adicionar a meta tag para evitar a vinculação desses links externos à nossa página.
+
+Exemplo de uso:
 
 ```html
 <meta name="robots" content="nofollow">
 ```
 
-### Tag noindex e nofollow
+#### `<meta name="robots" content="noindex, nofollow">`
 
-- Em resumo, ao utilizar a tag noindex, instruímos o mecanismo de busca a não exibir nossa página nos resultados de pesquisa. No entanto, isso não impede a associação de links. Por outro lado, ao empregar a tag nofollow, indicamos ao mecanismo de busca que não associe os links à nossa página.
-- E se desejarmos utilizar ambos simultaneamente? A resposta é simples: basta separar os dois com uma vírgula.
-- Isso é útil para post de fórum
-- Exemplo de uso:
+Em resumo, ao utilizar a tag `noindex`, instruímos o mecanismo de busca a não exibir nossa página nos resultados de pesquisa. Isso não impede a associação de links. Ao empregar a tag `nofollow`, indicamos ao mecanismo de busca que não associe os links à nossa página. Se desejarmos utilizar ambos simultaneamente, basta separar os dois com uma vírgula. Isso é útil para post de fórum.
+
+Exemplo de uso:
 
 ```html
 <meta name="robots" content="noindex, nofollow">
@@ -97,16 +90,17 @@ Exemplo:
 
 ### Tag `<meta name="viewport">`
 
-- Serve para ajustar o conteudo de uma página independente do tamanho do disposito utilizado pelo usuario
-- Exemplo de uso:
+A tag `<meta name="viewport">` serve para ajustar o conteúdo de uma página independentemente do tamanho do dispositivo utilizado pelo usuário.
+
+Exemplo de uso:
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-- Entendo a meta tag:
-    - `<content="width=device-width">` - Ajusta a largura do conteúdo para a mesma largura da tela do dispositivo 
-    - `<content="initial-scale=1.0">` - Defini o zoom inicial da página (1.0 - sem zoom) 
+Entendendo a meta tag:
+- `<content="width=device-width">` - Ajusta a largura do conteúdo para a mesma largura da tela do dispositivo.
+- `<content="initial-scale=1.0">` - Define o zoom inicial da página (1.0 - sem zoom).
 
 ### Adicionando Estilos CSS Externos
 
@@ -117,42 +111,46 @@ Primeiramente, é importante compreender o que é o CSS.
 
 ### HTML e CSS
 
-- A integração dos estilos CSS com o HTML é realizada de três maneiras: externa, interna e inline.
-- Neste contexto, aprenderemos a realizar a integração de forma externa.
-- Para isso, utilizaremos a tag `<link>`.
+A integração dos estilos CSS com o HTML é realizada de três maneiras: externa, interna e inline. Neste contexto, aprenderemos a realizar a integração de forma externa, utilizando a tag `<link>`.
 
 ### Tag `<link rel="stylesheet">`
 
-- A tag `link` quando utilizada junto do atributo `rel="stylesheet"` serve para adicionar um arwuivo CSS a uma página HTML
-- Exemplo de uso:
+A tag `<link>` quando utilizada junto do atributo `rel="stylesheet"` serve para adicionar um arquivo CSS a uma página HTML.
+
+Exemplo de uso:
 
 ```html
 <link rel="stylesheet" href="style.css">
 ```
-Entendendo a tag:
-    - `<rel="stylesheet">` - Informa que estamos carregando um arquivo de estilos
-    - `<href="style.css">` - Determina o caminho do aruivo a ser carregado
 
-Além das propriedades `rel` e `href` temos a propriedade opcional `type` que indica o tipo de arquivo a ser importado 
+Entendendo a tag:
+- `<rel="stylesheet">` - Informa que estamos carregando um arquivo de estilos.
+- `<href="style.css">` - Determina o caminho do arquivo a ser carregado.
+
+Além das propriedades `rel` e `href`, temos a propriedade opcional `type` que indica o tipo de arquivo a ser importado.
 
 ```html
 <link rel="stylesheet" href="style.css" type="text/css">
 ```
 
-Quando não inserimos o `type` o navegador vai identificar o tipo atravez da propriedade `rel` 
+Quando não inserimos o `type`, o navegador vai identificar o tipo através da propriedade `rel`.
 
+### Tag `<style>`
 
+Através dessa tag, adicionamos o estilo CSS diretamente na página HTML.
 
+Exemplo de uso:
 
-
-
-
-
-
-
-
-
-
-
-
-
+```html
+<style>
+    h1 {
+        color:#02af3b;
+    }
+    h3 {
+        color: #ff7300;
+    }
+    div {
+        background: #6694eb;
+    }
+</style>
+```
