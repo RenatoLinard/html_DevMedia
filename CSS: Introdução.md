@@ -1,13 +1,13 @@
-# Introdução CSS (Cascading Style Sheets)
+# Introdução ao CSS (Cascading Style Sheets)
 
 ## Introdução
 
-Para alterar a aparência de uma página web precisamos utilizar uma linguagem de estilização chamada CSS (Cascading Style Sheets). Com ela mudamos o visual dos elementos da pagina
+Para modificar a aparência de uma página web, é necessário utilizar uma linguagem de estilização chamada CSS (Cascading Style Sheets). Com o CSS, podemos alterar o visual dos elementos da página.
 
-`HTML`- Serve para estruturar uma página web
-`CSS`- Serbe para estilizar a página web
+- `HTML`: Utilizado para estruturar uma página web.
+- `CSS`: Empregado para estilizar a página web.
 
-Exemplo de uso:
+### Exemplo de Uso:
 
 ```css
 p {
@@ -19,14 +19,12 @@ p {
 
 ## Sintaxe do CSS
 
-```
+```css
 elemento {
     propriedade: valor;
 }
 ```
 
-`elemento`- Representa uma tag no arquivo html
-
-`{}`- Note que temos um par de chaves que abre e se fecha no final da estrutura, dentro delas ficaram os estilos que serão aplicados
-
-`proprieda: valor`- Essa dupla é responsavel por definir um estilo para o elemento
+- `elemento`: Representa uma tag no arquivo HTML.
+- `{}`: Observa-se um par de chaves que abre e fecha no final da estrutura. Dentro delas, estão os estilos que serão aplicados.
+- `propriedade: valor`: Essa dupla é responsável por definir um estilo para o elemento.
