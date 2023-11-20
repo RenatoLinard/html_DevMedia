@@ -40,5 +40,3 @@ elemento {
     - Existem dois casos em que o ponto e vírgula pode ser omitido:
         1. Se houver apenas um estilo.
         2. Após o último estilo.
-
-
