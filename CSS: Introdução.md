@@ -9,7 +9,7 @@ A alteração da aparência de uma página web envolve o uso de uma linguagem de
 
 ### Exemplo de Uso:
 
-```css
+```html
 p {
     font-size: 16px;
     font-weight: bold;
@@ -19,7 +19,7 @@ p {
 
 ## Sintaxe do CSS
 
-```css
+```html
 elemento {
     propriedade: valor;
 }
