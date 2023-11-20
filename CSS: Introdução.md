@@ -16,3 +16,15 @@ p {
     color: black;
 }
 ```
+
+## Sintaxe do CSS
+
+```
+elemento {
+    propriedade: valor;
+}
+```
+
+`elemento`- Representa uma tag no arquivo html
+`{}`- Note que temos um par de chaves que abre e se fecha no final da estrutura, dentro delas ficaram os estilos que serão aplicados
+`proprieda: valor`- Essa dupla é responsavel por definir um estilo para o elemento
