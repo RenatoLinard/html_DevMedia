@@ -40,3 +40,10 @@ elemento {
     - Existem dois casos em que o ponto e vírgula pode ser omitido:
         1. Se houver apenas um estilo.
         2. Após o último estilo.
+
+## Primeiro código CSS
+
+Agora que entendemos a sintaxe do CSS e a importancia de implementar de forma correta, veremos as formas de usa-lo em uma página html.
+
+### Adicionando e analisando CSS em uma página
+
