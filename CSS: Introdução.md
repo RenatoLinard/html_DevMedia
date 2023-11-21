@@ -9,7 +9,7 @@ A alteração da aparência de uma página web envolve o uso de uma linguagem de
 
 ### Exemplo de Uso:
 
-```html
+```css
 p {
     font-size: 16px;
     font-weight: bold;
@@ -19,7 +19,7 @@ p {
 
 ## Sintaxe do CSS
 
-```html
+```css
 elemento {
     propriedade: valor;
 }
@@ -43,11 +43,11 @@ elemento {
 
 ## Primeiro código CSS
 
-Agora que entendemos a sintaxe do CSS e a importancia de implementar de forma correta, veremos as formas de usa-lo em uma página html.
+Agora que entendemos a sintaxe do CSS e a importância de implementá-lo corretamente, veremos as formas de utilizá-lo em uma página HTML.
 
 ### Adicionando e analisando CSS em uma página
 
-Nesse exemplo vamos usar a forma interna de implementação do CSS no html
+Neste exemplo, vamos utilizar a forma interna de implementação do CSS no HTML.
 
 ```html
 <!doctype html>
@@ -55,6 +55,18 @@ Nesse exemplo vamos usar a forma interna de implementação do CSS no html
     <head>
         <title>Estrutura CSS</title>
         <meta charset="utf-8">
+
+        <style>
+            h1 {
+                font-size: 40px;
+                color: blue;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        </style>
+
     </head>
 
     <body>
@@ -62,4 +74,36 @@ Nesse exemplo vamos usar a forma interna de implementação do CSS no html
         <p>A alteração da aparência de uma página web envolve o uso de uma linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.</p>
     </body>
 </html>
-``
+```
+
+No exemplo acima, observamos o código CSS dentro da tag `style` e sua sintaxe correta para que seu funcionamento realize o que está sendo solicitado.
+
+A propriedade `font-size` altera em pixels o tamanho das fontes e `color` altera a cor da fonte.
+
+## Padrões de cores
+
+Padrões de cores é um assunto importante para ser abordado devido seu constante uso uso em todo tipo de projeto.
+
+Basicamente utilizamos 3 padrões de cores:
+
+- RGB
+- Hexadecimal
+- Nome da cor (Inglês)
+
+### Padrão de cor nominal
+
+- Utiliza o nome da cor em inglês
+- O nome da cor é definido com valor da propriedade
+
+### Padrão RGB
+
+- É um sistema de cores onde é combinado as cores `vermelha (R)`, `verde (G)` e `azul (B)` para criar uma cor
+- Sua sintaxe segue um padão:
+    - Escrevemos rgb
+    - abrimos e fechamos parênteses 
+    - e inserimos respectivamente as cores vermelho, verde e azul
+    - cada cor é inserida com a quantidade de 0 à 255
+- Normalemente são utilizadas nas propriedade color e background-color
+
+### Padrão hexadecimal
+
