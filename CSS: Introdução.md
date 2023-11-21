@@ -132,3 +132,12 @@ Vamos seguir um passo a passo simples para criação e organização dos arquivo
     4. Por fim, devemos linkar o arquivo .css com .html utilizando a tag `<link rel="stylesheet" href="#">`.
 
 Na propriedade `href`, devemos prestar atenção para descrever o caminho correto do arquivo .css, caso esteja em uma subpasta ou um diretório diferente.
+
+## Propriedades de fonte
+
+É importante conhecer as diversas propriedades disponiveis para se ter opções de estilização.
+
+#### Conhecendo propriedades para estilizar textos
+
+`font-size`- Altera o tamanho da fonte
+`font-family`- Altera a família da fonte
