@@ -1,8 +1,8 @@
-# Introdução ao CSS (Cascading Style Sheets)
+ # Introdução ao CSS (Cascading Style Sheets)
 
 ## Visão Geral
 
-A alteração da aparência de uma página web envolve o uso de uma linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.
+A modificação da aparência de uma página web envolve o uso da linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.
 
 - `HTML`: Utilizado para estruturar a página web.
 - `CSS`: Empregado para estilizar a página web.
@@ -37,7 +37,7 @@ elemento {
   - Omissão do par de chaves.
   - Escrita incorreta do nome da propriedade.
   - Falta do ponto e vírgula no final de cada estilo para separá-los.
-    - Existem dois casos em que o ponto e vírgula pode ser omitido:
+    - Existem dois casos em que o ponto e vírgula podem ser omitidos:
         1. Se houver apenas um estilo.
         2. Após o último estilo.
 
@@ -71,39 +71,38 @@ Neste exemplo, vamos utilizar a forma interna de implementação do CSS no HTML.
 
     <body>
         <h1>Introdução ao CSS</h1>
-        <p>A alteração da aparência de uma página web envolve o uso de uma linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.</p>
+        <p>A modificação da aparência de uma página web envolve o uso da linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.</p>
     </body>
 </html>
 ```
 
 No exemplo acima, observamos o código CSS dentro da tag `style` e sua sintaxe correta para que seu funcionamento realize o que está sendo solicitado.
 
-A propriedade `font-size` altera em pixels o tamanho das fontes e `color` altera a cor da fonte.
+A propriedade `font-size` altera em pixels o tamanho das fontes, e `color` altera a cor da fonte.
 
-## Padrões de cores
+## Padrões de Cores
 
-Padrões de cores é um assunto importante para ser abordado devido seu constante uso uso em todo tipo de projeto.
+Padrões de cores são um assunto importante devido ao seu constante uso em todo tipo de projeto.
 
-Basicamente utilizamos 3 padrões de cores:
+Basicamente, utilizamos 3 padrões de cores:
 
 - RGB
 - Hexadecimal
 - Nome da cor (Inglês)
 
-### Padrão de cor nominal
+### Padrão de Cor Nominal
 
-- Utiliza o nome da cor em inglês
-- O nome da cor é definido com valor da propriedade
+- Utiliza o nome da cor em inglês.
+- O nome da cor é definido com valor da propriedade.
 
 ### Padrão RGB
 
-- É um sistema de cores onde é combinado as cores `vermelha (R)`, `verde (G)` e `azul (B)` para criar uma cor
-- Sua sintaxe segue um padão:
-    - Escrevemos rgb
-    - abrimos e fechamos parênteses 
-    - e inserimos respectivamente as cores vermelho, verde e azul
-    - cada cor é inserida com a quantidade de 0 à 255
-- Normalemente são utilizadas nas propriedade color e background-color
+- É um sistema de cores onde são combinadas as cores `vermelha (R)`, `verde (G)`, e `azul (B)` para criar uma cor.
+- Sua sintaxe segue um padrão:
+    - Escrevemos `rgb`.
+    - Abrimos e fechamos parênteses.
+    - Inserimos respectivamente as cores vermelho, verde e azul.
+    - Cada cor é inserida com a quantidade de 0 a 255.
+- Normalmente, são utilizadas nas propriedades `color` e `background-color`.
 
-### Padrão hexadecimal
-
+### Padrão Hexadecimal
