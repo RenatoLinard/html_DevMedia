@@ -1,8 +1,8 @@
- # Introdução ao CSS (Cascading Style Sheets)
+# Introdução ao CSS (Cascading Style Sheets)
 
 ## Visão Geral
 
-A modificação da aparência de uma página web envolve o uso da linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.
+A alteração da aparência de uma página web envolve o uso da linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.
 
 - `HTML`: Utilizado para estruturar a página web.
 - `CSS`: Empregado para estilizar a página web.
@@ -45,7 +45,7 @@ elemento {
 
 Agora que entendemos a sintaxe do CSS e a importância de implementá-lo corretamente, veremos as formas de utilizá-lo em uma página HTML.
 
-### Adicionando e analisando CSS em uma página
+### Adicionando e Analisando CSS em uma Página
 
 Neste exemplo, vamos utilizar a forma interna de implementação do CSS no HTML.
 
@@ -71,7 +71,7 @@ Neste exemplo, vamos utilizar a forma interna de implementação do CSS no HTML.
 
     <body>
         <h1>Introdução ao CSS</h1>
-        <p>A modificação da aparência de uma página web envolve o uso da linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.</p>
+        <p>A alteração da aparência de uma página web envolve o uso da linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.</p>
     </body>
 </html>
 ```
@@ -115,8 +115,20 @@ Basicamente, utilizamos 3 padrões de cores:
 - Pode conter 3 caracteres, sendo um para cada cor ou 6 caracteres, dois para cada cor
 - Assim como a nominal e RGB normalmente são utilizadas nas propriedades `color` e `background-color`
 
-Existe duas otimas ferramentas seletoras de cores:
-- [**Site do Mozilla**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/Color_picker_tool)- permite escolher uma cor e ver a forma escrita em `rgb` e `hexadecimal`
-- [**Site Pick Color From Image**](https://imagecolorpicker.com/)- permite escolher cores através de imagens
+Existem duas ótimas ferramentas seletoras de cores:
+- [**Site do Mozilla**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/Color_picker_tool) - permite escolher uma cor e ver a forma escrita em `rgb` e `hexadecimal`
+- [**Site Pick Color From Image**](https://imagecolorpicker.com/) - permite escolher cores através de imagens
 
-## CSS em um arquivo externo
+## CSS em um Arquivo Externo
+
+Anteriormente foi utilizado a tag `<style>` para adicionar o CSS interno, agora vamos aprender a usar a tag `<link>` para adicionar um arquivo CSS externo.
+
+A adoção de arquivos externos é altamente recomendada devido à sua capacidade de proporcionar organização e facilitar a manutenção do código. Essa abordagem contribui significativamente para uma estrutura mais limpa e gerenciável.
+
+Vamos seguir um passo a passo simples para criação e organização dos arquivos:
+    1. Criar um diretório para guardar o arquivo .html e .css.
+    2. Criar o arquivo com a extensão .html que será responsável por conter a estrutura da página.
+    3. Criar o arquivo com a extensão .css que será responsável por conter os estilos da página.
+    4. Por fim, devemos linkar o arquivo .css com .html utilizando a tag `<link rel="stylesheet" href="#">`.
+
+Na propriedade `href`, devemos prestar atenção para descrever o caminho correto do arquivo .css, caso esteja em uma subpasta ou um diretório diferente.
