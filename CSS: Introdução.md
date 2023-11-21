@@ -118,3 +118,5 @@ Basicamente, utilizamos 3 padrões de cores:
 Existe duas otimas ferramentas seletoras de cores:
 - [**Site do Mozilla**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/Color_picker_tool)- permite escolher uma cor e ver a forma escrita em `rgb` e `hexadecimal`
 - [**Site Pick Color From Image**](https://imagecolorpicker.com/)- permite escolher cores através de imagens
+
+## CSS em um arquivo externo
