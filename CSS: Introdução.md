@@ -106,3 +106,15 @@ Basicamente, utilizamos 3 padrões de cores:
 - Normalmente, são utilizadas nas propriedades `color` e `background-color`.
 
 ### Padrão Hexadecimal
+
+- Assim como o `rgb` o padrão `hexadecimal` utiliza a combinação de cores `vermelho`, `verde` e `azul` 
+- A diferença é que invés de usar valor de 0 à 255 é utilizado caracteres hexadecimais (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, A, B, C, D, E, F)
+- Sua sintaxe segue o seguinte padrão:
+    - Escrevemos # (hashtag)
+    - E os valores referentes a cores vermelho, verde e azul respesctivamente
+- Pode conter 3 caracteres, sendo um para cada cor ou 6 caracteres, dois para cada cor
+- Assim como a nominal e RGB normalmente são utilizadas nas propriedades `color` e `background-color`
+
+Existe duas otimas ferramentas seletoras de cores:
+- [**Site do Mozilla**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/Color_picker_tool)- permite escolher uma cor e ver a forma escrita em `rgb` e `hexadecimal`
+- [**Site Pick Color From Image**](https://imagecolorpicker.com/)- permite escolher cores através de imagens
