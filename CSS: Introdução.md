@@ -47,3 +47,19 @@ Agora que entendemos a sintaxe do CSS e a importancia de implementar de forma co
 
 ### Adicionando e analisando CSS em uma página
 
+Nesse exemplo vamos usar a forma interna de implementação do CSS no html
+
+```html
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Estrutura CSS</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>Introdução ao CSS</h1>
+        <p>A alteração da aparência de uma página web envolve o uso de uma linguagem de estilização conhecida como CSS (Cascading Style Sheets). O CSS permite a modificação visual dos elementos presentes na página.</p>
+    </body>
+</html>
+``
