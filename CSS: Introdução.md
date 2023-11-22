@@ -111,7 +111,7 @@ Basicamente, utilizamos 3 padrões de cores:
 - A diferença é que invés de usar valor de 0 à 255 é utilizado caracteres hexadecimais (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, A, B, C, D, E, F)
 - Sua sintaxe segue o seguinte padrão:
     - Escrevemos # (hashtag)
-    - E os valores referentes a cores vermelho, verde e azul respesctivamente
+    - E os valores referentes a cores vermelho, verde e azul respectivamente
 - Pode conter 3 caracteres, sendo um para cada cor ou 6 caracteres, dois para cada cor
 - Assim como a nominal e RGB normalmente são utilizadas nas propriedades `color` e `background-color`
 
@@ -126,16 +126,17 @@ Anteriormente foi utilizado a tag `<style>` para adicionar o CSS interno, agora 
 A adoção de arquivos externos é altamente recomendada devido à sua capacidade de proporcionar organização e facilitar a manutenção do código. Essa abordagem contribui significativamente para uma estrutura mais limpa e gerenciável.
 
 Vamos seguir um passo a passo simples para criação e organização dos arquivos:
-    1. Criar um diretório para guardar o arquivo .html e .css.
-    2. Criar o arquivo com a extensão .html que será responsável por conter a estrutura da página.
-    3. Criar o arquivo com a extensão .css que será responsável por conter os estilos da página.
-    4. Por fim, devemos linkar o arquivo .css com .html utilizando a tag `<link rel="stylesheet" href="#">`.
+
+1. Criar um diretório para guardar o arquivo .html e .css.
+2. Criar o arquivo com a extensão .html que será responsável por conter a estrutura da página.
+3. Criar o arquivo com a extensão .css que será responsável por conter os estilos da página.
+4. Por fim, devemos linkar o arquivo .css com .html utilizando a tag `<link rel="stylesheet" href="#">`.
 
 Na propriedade `href`, devemos prestar atenção para descrever o caminho correto do arquivo .css, caso esteja em uma subpasta ou um diretório diferente.
 
-## Propriedades de fonte
+## Propriedades de Fonte
 
-É importante conhecer as diversas propriedades disponiveis para se ter opções de estilização.
+É importante conhecer as diversas propriedades disponíveis para se ter opções de estilização.
 
 #### Conhecendo propriedades para estilizar textos
 
