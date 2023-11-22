@@ -143,7 +143,7 @@ Na propriedade `href`, devemos prestar atenção para descrever o caminho corret
 - `font-size`- Altera o tamanho da fonte
     - `valores`- ##px
 - `font-family`- Altera a família da fonte
-    - `valores`- [**artigo de fontes padrões**](https://www.devmedia.com.br/lista-de-fontes-padrao-no-css/43215)
+    - `valores`- [**Artigo de fontes padrões**](https://www.devmedia.com.br/lista-de-fontes-padrao-no-css/43215)
 
 ### Conhecendo a propriedade para a espessura da fonte
 
