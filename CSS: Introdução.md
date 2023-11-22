@@ -138,7 +138,7 @@ Na propriedade `href`, devemos prestar atenção para descrever o caminho corret
 
 É importante conhecer as diversas propriedades disponíveis para se ter opções de estilização.
 
-#### Conhecendo propriedades para estilizar textos
+### Conhecendo propriedades para estilizar textos
 
 - `font-size`- Altera o tamanho da fonte
 - `font-family`- Altera a família da fonte
