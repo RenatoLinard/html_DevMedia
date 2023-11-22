@@ -12,6 +12,8 @@ background: #152618;
 background: -moz-linear-gradient(left, #152618 0%, #374029 50%, #A6916A 100%);
 background: -webkit-linear-gradient(left, #152618 0%, #374029 50%, #A6916A 100%);
 background: linear-gradient(to right, #152618 0%, #374029 50%, #A6916A 100%);
+    margin-left: 100px;
+    margin-right: 100px;
 }  
 
 h2 {
