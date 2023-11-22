@@ -142,3 +142,11 @@ Na propriedade `href`, devemos prestar atenção para descrever o caminho corret
 
 - `font-size`- Altera o tamanho da fonte
 - `font-family`- Altera a família da fonte
+
+### Conhecendo a propriedade para a espessura da fonte
+
+- `font-weigh`- propriedade para espessura da fonte (Alterar o "peso" da fonte)
+
+### Conhecendo a propriedade para o estilo da fonte
+
+- `font-style`- Aplicamos um "efeito" na fonte 
