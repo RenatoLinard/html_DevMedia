@@ -141,12 +141,40 @@ Na propriedade `href`, devemos prestar atenção para descrever o caminho corret
 ### Conhecendo propriedades para estilizar textos
 
 - `font-size`- Altera o tamanho da fonte
+    - `valores`- ##px
 - `font-family`- Altera a família da fonte
+    - `valores`- [
+
+**artigo de fontes padrões**](https://www.devmedia.com.br/lista-de-fontes-padrao-no-css/43215)
 
 ### Conhecendo a propriedade para a espessura da fonte
 
-- `font-weigh`- propriedade para espessura da fonte (Alterar o "peso" da fonte)
+- `font-weight`- propriedade para espessura da fonte
+    - `valores`- normal e bold
 
 ### Conhecendo a propriedade para o estilo da fonte
 
 - `font-style`- Aplicamos um "efeito" na fonte 
+    - `valores`- normal e italic
+
+### Conhecendo a propriedade para aplicar linhas em textos
+
+- `text-decoration`- Responsável por aplicar linhas em um texto
+    - `valores`- underline, overline, line-through, none
+
+É muito comum para remover os sublinhados que vem por padrões em links
+
+### Conhecendo a propriedade para alinhar textos
+
+- `text-align`- Define o alinhamento do texto
+    - `valores`- left, center, right
+
+### Conhecendo a propriedade que define a altura da linha de textos
+
+- `line-height`- Define a altura das linhas de um texto
+    - `valores`- ##px
+
+### Estilizando textos dentro de uma div
+
+Aplicar os estilos dentro de uma div tem o mesmo efeito de aplicar estilos em cada elemento por vez, porém com a vantagem de não precisar replicar o código várias vezes.
+É importante ressaltar que caso seja aplicado um estilo em uma div e outro para algum elemento, a prioridade de aplicação fica para o estilo do elemento.
