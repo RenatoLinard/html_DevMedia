@@ -140,5 +140,5 @@ Na propriedade `href`, devemos prestar atenção para descrever o caminho corret
 
 #### Conhecendo propriedades para estilizar textos
 
-`font-size`- Altera o tamanho da fonte
-`font-family`- Altera a família da fonte
+- `font-size`- Altera o tamanho da fonte
+- `font-family`- Altera a família da fonte
