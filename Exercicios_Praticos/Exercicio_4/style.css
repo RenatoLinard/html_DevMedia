@@ -1,0 +1,33 @@
+#container1 {
+    font-family: Verdana;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    color: #73020C;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+img {
+    max-width: 800px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+h3 {
+    color: #73020C;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+
+
