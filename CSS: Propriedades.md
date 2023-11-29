@@ -28,3 +28,12 @@ A aparência da tag de link está sendo modificada por meio das propriedades `fo
 - 2. `color` - Altera a cor da fonte.
 - 3. `background-color` - Altera a cor de fundo.
 
+## Cor
+
+Uma das alterações mais comuns na hora de estilizar é a mudança de cor. Para isso, temos duas propriedades muito comuns para esse propósito: `color` e `background-color`.
+
+No artigo anterior, vimos os padrões utilizados no CSS para alterar a cor.
+
+- 1. `Nominal` - Utiliza o nome da cor em inglês.
+- 2. `Hexadecimal` - Utiliza caracteres hexadecimais.
+- 3. `RGB` - Utiliza a combinação vermelho (`RED`), verde (`Green`) e azul (`Blue`) com escala de intensidade de 0 a 255.
