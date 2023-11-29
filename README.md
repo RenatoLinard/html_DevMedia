@@ -6,3 +6,4 @@ Este repositório contém anotações pessoais e exemplos referentes ao curso de
 - [**HTML: Tags Básicas**](https://github.com/RenatoLinard/html_DevMedia/blob/main/HTML:%20Tags%20b%C3%A1sicas.md)
 - [**HTML: MetaTags**](https://github.com/RenatoLinard/html_DevMedia/blob/main/HTML%3A%20MetaTags.md)
 - [**CSS: Introdução**](https://github.com/RenatoLinard/html_DevMedia/blob/main/CSS:%20Introdu%C3%A7%C3%A3o.md)
+- [**CSS: Conceito de Propriedades**](https://github.com/RenatoLinard/html_DevMedia/blob/main/CSS:%20Propriedades.md)
