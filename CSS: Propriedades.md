@@ -59,3 +59,25 @@ a {
 ```
 
 No exemplo acima, representamos a mesma cor utilizando os padrões mencionados.
+
+## Fonte
+
+Outra alteração importante para o programador conhecer é as propriedades de alteração de fontes. Para isso, temos: `font-size`, `font-family`, `font-weight`, `text-decoration`, `text-align`, `line-height`.
+
+- 1. `font-size` - Tamanho da fonte.
+- 2. `font-family` - Família da fonte.
+- 3. `font-weight` - Espessura da fonte.
+- 4. `text-decoration` - Tracejado da fonte.
+- 5. `text-align` - Alinhamento do texto.
+- 6. `line-height` - Altura da linha do texto.
+
+```css
+p {
+    font-size: 24px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 20px;
+}
+```
