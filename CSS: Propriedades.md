@@ -94,8 +94,8 @@ div {
 }
 ```
 
-`height` - Define a altura do elemento.
-`width` - Define a largura do elemento.
+- `height` - Define a altura do elemento.
+- `width` - Define a largura do elemento.
 
 As propriedades `height` e `width` podem ser aplicadas a qualquer elemento HTML.
 
