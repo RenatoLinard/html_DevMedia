@@ -81,3 +81,22 @@ p {
     line-height: 20px;
 }
 ```
+
+## Altura e Largura
+
+Duas propriedades essenciais que determinam a área que um elemento ocupa na tela são altura (height) e largura (width).
+
+```css
+div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+```
+
+`height`- Define a altura do elemento
+`width`- Define a largura do elemento
+
+As propriedades `height` e `width` podem ser aplicadas em qualquer elemento html
+
+Quando utilizamos as propriedades `height` e `width` podemos distorcer uma imagens caso não utilzarmos valores proporcionais as dimensões originais da imagem
