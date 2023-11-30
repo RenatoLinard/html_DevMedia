@@ -62,7 +62,7 @@ No exemplo acima, representamos a mesma cor utilizando os padrões mencionados.
 
 ## Fonte
 
-Outra alteração importante para o programador conhecer é as propriedades de alteração de fontes. Para isso, temos: `font-size`, `font-family`, `font-weight`, `text-decoration`, `text-align`, `line-height`.
+Outra alteração importante para o programador conhecer são as propriedades de alteração de fontes. Para isso, temos: `font-size`, `font-family`, `font-weight`, `text-decoration`, `text-align`, `line-height`.
 
 - 1. `font-size` - Tamanho da fonte.
 - 2. `font-family` - Família da fonte.
@@ -84,7 +84,7 @@ p {
 
 ## Altura e Largura
 
-Duas propriedades essenciais que determinam a área que um elemento ocupa na tela são altura (height) e largura (width).
+Duas propriedades essenciais que determinam a área que um elemento ocupa na tela são altura (`height`) e largura (`width`).
 
 ```css
 div {
@@ -94,9 +94,9 @@ div {
 }
 ```
 
-`height`- Define a altura do elemento
-`width`- Define a largura do elemento
+`height` - Define a altura do elemento.
+`width` - Define a largura do elemento.
 
-As propriedades `height` e `width` podem ser aplicadas em qualquer elemento html
+As propriedades `height` e `width` podem ser aplicadas a qualquer elemento HTML.
 
-Quando utilizamos as propriedades `height` e `width` podemos distorcer uma imagens caso não utilzarmos valores proporcionais as dimensões originais da imagem
+Quando utilizamos as propriedades `height` e `width`, podemos distorcer uma imagem caso não utilizemos valores proporcionais às dimensões originais da imagem.
