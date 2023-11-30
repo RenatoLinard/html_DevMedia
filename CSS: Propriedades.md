@@ -100,3 +100,58 @@ div {
 As propriedades `height` e `width` podem ser aplicadas a qualquer elemento HTML.
 
 Quando utilizamos as propriedades `height` e `width`, podemos distorcer uma imagem caso não utilizemos valores proporcionais às dimensões originais da imagem.
+
+## Margem
+
+Essas propriedades são úteis para a estilização de uma página, pois criam um espaçamento entre os elementos, evitando que fiquem "colados" entre si.
+
+Alguns elementos já possuem a margem padrão, porém podemos alterá-las para deixá-los mais ou menos espaçados.
+
+```css
+h1 {
+    margin: 60px;
+}
+```
+
+Quando definimos apenas um valor de `margin`, como no exemplo acima, estamos definindo um valor para cima, direita, baixo e esquerda, respectivamente.
+
+Podemos ser mais específicos em qual lado queremos alterar usando:
+
+- 1. `margin-top` - espaçamento de cima
+- 2. `margin-right` - espaçamento da direita
+- 3. `margin-bottom` - espaçamento de baixo
+- 4. `margin-left` - espaçamento da esquerda
+
+```css
+p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+```
+
+Também podemos usar uma forma mais compacta para definir os quatro lados usando apenas uma linha de código
+
+```css
+div {
+    margin: 70px 20px 10px 60px;
+}
+```
+
+Dessa forma, estamos definindo, respectivamente, o lado de cima (top), direita (right), baixo (bottom), esquerda (left).
+
+Temos também uma terceira forma de definir o espaçamento
+
+```css
+div {
+    margin: 20px, 15px;
+}
+```
+
+Dessa forma, definimos um valor para cima (top) e baixo (bottom) e um valor para direita (right) e esquerda (left), respectivamente.
+
+
+
+
+
