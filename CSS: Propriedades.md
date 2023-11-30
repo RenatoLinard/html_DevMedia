@@ -113,7 +113,7 @@ h1 {
 }
 ```
 
-Quando definimos apenas um valor de `margin`, como no exemplo acima, estamos definindo um valor para cima, direita, baixo e esquerda, respectivamente.
+Quando definimos apenas um valor de `margin`, como no exemplo acima, estamos definindo um valor para cima, direita, baixo e esquerda.
 
 Podemos ser mais específicos em qual lado queremos alterar usando:
 
@@ -121,6 +121,10 @@ Podemos ser mais específicos em qual lado queremos alterar usando:
 - 2. `margin-right` - espaçamento da direita
 - 3. `margin-bottom` - espaçamento de baixo
 - 4. `margin-left` - espaçamento da esquerda
+
+### Propriedades específicas de margem
+
+Dessa forma, especificamos exatamente o lado que queremos alterar a margem.
 
 ```css
 p {
@@ -131,7 +135,9 @@ p {
 }
 ```
 
-Também podemos usar uma forma mais compacta para definir os quatro lados usando apenas uma linha de código
+### Formas compactas de propriedade
+
+Também podemos usar uma forma mais compacta para definir os quatro lados usando apenas uma linha de código.
 
 ```css
 div {
@@ -141,7 +147,7 @@ div {
 
 Dessa forma, estamos definindo, respectivamente, o lado de cima (top), direita (right), baixo (bottom), esquerda (left).
 
-Temos também uma terceira forma de definir o espaçamento
+Temos também uma segunda forma compacta para definir o espaçamento dos elementos.
 
 ```css
 div {
