@@ -151,13 +151,40 @@ Temos também uma segunda forma compacta para definir o espaçamento dos element
 
 ```css
 div {
-    margin: 20px, 15px;
+    margin: 20px 15px;
 }
 ```
 
-Dessa forma, definimos um valor para cima (top) e baixo (bottom) e um valor para direita (right) e esquerda (left), respectivamente.
+Dessa forma, definimos da seguinte forma:
 
+- `margin-top e margin-bottom` - 20px
+- `margin-right e margin-left` - 15px
 
+### Centralizando elementos na tela
 
+Podemos usar a propriedade `margin` para centralizar
 
+ um elemento da tela.
 
+```css
+div {
+    margin: 10px auto 
+}
+```
+
+Dessa forma, definimos da seguinte forma:
+
+- `margin-top e margin-bottom` - 10px
+- `margin-right e margin-left` - auto
+
+Dessa forma, o valor `auto` faz com que as margens laterais fiquem do mesmo tamanho se ajustando à tela, independente do tamanho da tela o elemento vai se ajustar lateralmente ficando sempre centralizado.
+
+### Removendo as margens de um elemento
+
+Como citado anteriormente alguns elementos possuem margens pré-definidas e se quisermos remover essas margens por algum motivo utilizamos o "0" como valor.
+
+```css
+div {
+    margin: 0;
+}
+```
