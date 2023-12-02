@@ -153,6 +153,8 @@ Temos também uma segunda forma compacta para definir o espaçamento dos element
 div {
     margin: 20px 15px;
 }
+
+
 ```
 
 Dessa forma, definimos da seguinte forma:
@@ -231,7 +233,24 @@ Podemos omitir as características de cor e espessura, porém o estilo continua 
 
 A ordem na qual são declaradas as características não afeta no código, porém é interessante seguir o padrão `border: 2px solid #454545` espessura, estilo e cor.
 
+### Usando propriedades especificas para os lados do elemento
 
+Podemos aplicar bordas em um lado especifico do elemento. Temos quatro propriedades que representam as bordas nos lados dos elementos.
 
+- `border-top`- Cria borda na parte superior 
+- `border-right`- Cria borda no lado direto
+- `border-bottom`- Cria borda na parte inferior
+- `border-left`-  Cria borda no lado esquerdo
 
+Podemos combinar as propriedades de borda:
 
+```css
+div {
+    border-top: 2px dotted #454545;
+    border-bottom: dashed;
+    border-left: 10px #454545;
+    border-right: 5px dotted green;
+}
+```
+
+Caso todas as bordas tenham o mesmo valor é recomendado utilizar apenas a propriedade `border`.
