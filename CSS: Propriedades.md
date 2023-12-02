@@ -188,3 +188,50 @@ div {
     margin: 0;
 }
 ```
+
+## Borda
+
+A propriedade "border" é utilizada para criar linhas ao redor dos elementos.
+
+Para criar essas bordas ao redor dos elementos, usamos as seguintes propriedades:
+
+1. `border-width` - Largura da borda.
+2. `border-style` - Estilo da borda.
+3. `border-color` - Cor da borda.
+
+```css
+div {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #454545;
+}
+```
+
+O estilo da borda (`border-style`) é a única característica obrigatória para aplicar a borda em um elemento. As outras características são opcionais.
+
+### Como Usar as Propriedades nos Elementos
+
+- `border-width` - Representa a largura da borda de um elemento, definindo a espessura da borda. Seu valor é representado por números de pixels.
+- `border-style` - Representa o estilo de uma borda do elemento, definindo a aparência da borda. Seus valores são variados e podem ser acessados na lista de sugestões do IDE.
+- `border-color` - Representa a cor da borda de um elemento. Com isso, podemos colorir a borda. Seu valor é definido por um dos três padrões de cores (nominal, hexadecimal, RGB).
+
+### Usando a Propriedade `border`
+
+A propriedade `border` oferece uma maneira compacta de definir todas as características da borda em uma única linha de código. Por exemplo:
+
+```css
+div {
+    border: 2px solid #454545;
+}
+```
+
+Dessa forma, podemos especificar a largura, o estilo e a cor da borda em uma única declaração.
+
+Podemos omitir as características de cor e espessura, porém o estilo continua sendo obrigatório no código.
+
+A ordem na qual são declaradas as características não afeta no código, porém é interessante seguir o padrão `border: 2px solid #454545` espessura, estilo e cor.
+
+
+
+
+
