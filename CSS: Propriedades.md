@@ -254,3 +254,29 @@ div {
 ```
 
 Caso todas as bordas tenham o mesmo valor é recomendado utilizar apenas a propriedade `border`.
+
+## Espaçamento interno
+
+O espaçamento interno representa a criação de um espaço ao redor do conteúdo do elemento.
+
+### Criando espaços internos em elementos
+
+Para criar o espaçamento, utilizamos a propriedade `padding`.
+
+### Comparando as propriedades `margin` e `padding`
+
+- `padding` - Serve para criar espaçamento dentro do elemento.
+- `margin` - Serve para criar espaçamento entre os elementos.
+
+Podemos utilizar ambas para a estilização da página.
+
+```css
+div {
+    padding: 20px;
+}
+```
+
+### Propriedades específicas de espaçamento interno
+
+
+
