@@ -278,5 +278,53 @@ div {
 
 ### Propriedades específicas de espaçamento interno
 
+Vimos que para definir um espaçamento interno dos elementos utilizamos a
+propriedade `padding`.
+
+Porém assim como margin e border quando não especificamos um dos lados o valor 
+definido será aplicado para todos lados.
+
+Para definirmos um lado especifico utilizamos uma propriedade especifica:
+
+- 1. `padding-top`- Espaçamento interno de cima do elemento
+- 2. `padding-right`- Espaçamento interno de direita do elemento
+- 3. `padding-bottom`- Espaçamento interno de inferior do elemento
+- 4. `padding-left`- Espaçamento interno de esquerda do elemento
+
+### Formas compactas da propriedade padding
+
+Anteriormente conhecemos as propriedades especificas.
+
+```CSS
+div {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+```
+
+Porém podemos usar formas mais compactas para definir o estilo que queremos 
+
+```CSS
+div {
+    padding: 20px 10px 20px 10px
+}
+```
+
+Dessa forma definimos respectivamente cima, direita, baixo e esquerda do elemento
+
+A segunda forma forma compacta segue o mesmo padrão das demais propriedades citadas
+anteriormente.
+
+```CSS
+div {
+    padding: 20px 10px
+}
+```
+
+Na qual define um valor para o padding superior e inferior (`20px`) e uma valor
+para o padding direito e esquerdo (10px)
+
 
 
