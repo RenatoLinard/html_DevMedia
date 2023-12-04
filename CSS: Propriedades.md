@@ -255,20 +255,13 @@ div {
 
 Caso todas as bordas tenham o mesmo valor é recomendado utilizar apenas a propriedade `border`.
 
-## Espaçamento interno
+## Espaçamento Interno (Padding)
 
-O espaçamento interno representa a criação de um espaço ao redor do conteúdo do elemento.
+O espaçamento interno (`padding`) é crucial para controlar a disposição e o espaço dentro de um elemento HTML.
 
-### Criando espaços internos em elementos
+### Criando Espaços Internos
 
-Para criar o espaçamento, utilizamos a propriedade `padding`.
-
-### Comparando as propriedades `margin` e `padding`
-
-- `padding` - Serve para criar espaçamento dentro do elemento.
-- `margin` - Serve para criar espaçamento entre os elementos.
-
-Podemos utilizar ambas para a estilização da página.
+Para criar espaçamento interno, utilizamos a propriedade `padding`. Essa propriedade define o espaço entre o conteúdo do elemento e suas bordas.
 
 ```css
 div {
@@ -276,26 +269,34 @@ div {
 }
 ```
 
-### Propriedades específicas de espaçamento interno
+Neste exemplo, um espaçamento interno de 20 pixels é aplicado a todos os lados do elemento `div`.
 
-Vimos que para definir um espaçamento interno dos elementos utilizamos a
-propriedade `padding`.
+### Comparando `margin` e `padding`
 
-Porém assim como margin e border quando não especificamos um dos lados o valor 
-definido será aplicado para todos lados.
+Lembrando a diferença fundamental:
 
-Para definirmos um lado especifico utilizamos uma propriedade especifica:
+- `margin`: Espaçamento entre elementos.
+- `padding`: Espaçamento dentro do elemento.
 
-- 1. `padding-top`- Espaçamento interno de cima do elemento
-- 2. `padding-right`- Espaçamento interno de direita do elemento
-- 3. `padding-bottom`- Espaçamento interno de inferior do elemento
-- 4. `padding-left`- Espaçamento interno de esquerda do elemento
+Ambos são úteis para a estilização da página.
 
-### Formas compactas da propriedade padding
+```css
+div {
+    padding: 20px;
+    margin: 10px;
+}
+```
 
-Anteriormente conhecemos as propriedades especificas.
+### Propriedades Específicas de Espaçamento Interno
 
-```CSS
+Similar a `margin` e `border`, podemos especificar valores diferentes para cada lado usando propriedades específicas:
+
+- `padding-top`: Espaçamento interno superior.
+- `padding-right`: Espaçamento interno à direita.
+- `padding-bottom`: Espaçamento interno inferior.
+- `padding-left`: Espaçamento interno à esquerda.
+
+```css
 div {
     padding-top: 20px;
     padding-right: 10px;
@@ -304,27 +305,27 @@ div {
 }
 ```
 
-Porém podemos usar formas mais compactas para definir o estilo que queremos 
+### Formas Compactas da Propriedade `padding`
 
-```CSS
+Assim como nas propriedades `margin`, podemos usar uma forma mais compacta para definir os espaçamentos interno superior, direito, inferior e esquerdo.
+
+```css
 div {
-    padding: 20px 10px 20px 10px
+    padding: 20px 10px 20px 10px;
 }
 ```
 
-Dessa forma definimos respectivamente cima, direita, baixo e esquerda do elemento
+Dessa forma, definimos, respectivamente, o espaçamento interno superior, direito, inferior e esquerdo.
 
-A segunda forma forma compacta segue o mesmo padrão das demais propriedades citadas
-anteriormente.
+Também é possível utilizar uma forma mais curta ainda, definindo apenas dois valores:
 
-```CSS
+```css
 div {
-    padding: 20px 10px
+    padding: 20px 10px;
 }
 ```
 
-Na qual define um valor para o padding superior e inferior (`20px`) e uma valor
-para o padding direito e esquerdo (10px)
+Nesse caso, o primeiro valor representa o espaçamento interno superior e inferior, enquanto o segundo valor representa o espaçamento interno direito e esquerdo.
 
 
 
