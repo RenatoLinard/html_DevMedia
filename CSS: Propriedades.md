@@ -327,5 +327,55 @@ div {
 
 Nesse caso, o primeiro valor representa o espaçamento interno superior e inferior, enquanto o segundo valor representa o espaçamento interno direito e esquerdo.
 
+## Arredondamento de Bordas (`border-radius`)
+
+A propriedade `border-radius` é utilizada para arredondar os cantos das bordas de um elemento. Vamos explorar como aplicar essa propriedade de maneira eficaz.
+
+### Arredondando Todos os Cantos
+
+Ao definir apenas um valor para `border-radius`, todos os quatro cantos serão estilizados de acordo com esse valor.
+
+```css
+div {
+    border-radius: 15px;
+}
+```
+
+Quanto maior o valor em pixels, mais arredondados serão os cantos. Podemos até mesmo criar um elemento em forma de círculo, definindo valores iguais ou muito próximos para `width` e `height`, além de um `border-radius` com um valor significativamente alto.
+
+### Ajustando Cantos Individualmente
+
+Se quisermos ajustar cada canto separadamente, podemos fornecer quatro valores para `border-radius`, representando os cantos no sentido horário, começando do canto superior esquerdo.
+
+```css
+div {
+    border-radius: 80px 30px 70px 50px;
+}
+```
+
+Neste exemplo:
+
+- Canto superior esquerdo: 80px
+- Canto superior direito: 30px
+- Canto inferior direito: 70px
+- Canto inferior esquerdo: 50px
+
+Também é possível usar apenas dois valores na propriedade `border-radius`, onde o primeiro valor se aplica ao canto superior esquerdo e inferior direito, e o segundo valor se aplica ao canto superior direito e inferior esquerdo.
+
+```css
+div {
+    border-radius: 25px 10px;
+}
+```
+
+Neste caso:
+
+- Canto superior esquerdo e inferior direito: 25px
+- Canto superior direito e inferior esquerdo: 10px
+
+Essa flexibilidade permite criar uma variedade de formas arredondadas para os elementos.
+
+
+
 
 
