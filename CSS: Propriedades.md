@@ -360,7 +360,9 @@ Neste exemplo:
 - Canto inferior direito: 70px
 - Canto inferior esquerdo: 50px
 
-Também é possível usar apenas dois valores na propriedade `border-radius`, onde o primeiro valor se aplica ao canto superior esquerdo e inferior direito, e o segundo valor se aplica ao canto superior direito e inferior esquerdo.
+Também é possível usar apenas dois valores na propriedade `border-radius`, 
+onde o primeiro valor se aplica ao canto superior esquerdo e inferior direito, 
+e o segundo valor se aplica ao canto superior direito e inferior esquerdo.
 
 ```css
 div {
@@ -375,7 +377,23 @@ Neste caso:
 
 Essa flexibilidade permite criar uma variedade de formas arredondadas para os elementos.
 
+## União de Estilos
 
+### Aplicando Estilos em Mais de Um Elemento ao Mesmo Tempo
+
+A união de estilos permite estilizar mais de um elemento usando o mesmo código simultaneamente. Para isso, utilizamos uma única regra de estilo que se aplica a vários elementos.
+
+```css
+span, li {
+    font-size: 18px;
+    font-family: Arial;
+    color: blue;
+}
+```
+
+No exemplo acima, a vírgula é usada para separar os elementos (`span` e `li`) na propriedade CSS. Como resultado, tanto os elementos `span` quanto os elementos `li` terão o mesmo tamanho de fonte, família de fonte e cor do texto.
+
+Essa técnica proporciona uma maneira eficiente de aplicar estilos consistentes a diversos elementos em sua página. Você pode estilizar quantos elementos desejar usando apenas um conjunto de propriedades CSS.
 
 
 
