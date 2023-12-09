@@ -6,11 +6,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 20px
 
 }
 
 img {
     width: 300px;
+    margin: 20px;
     
 }
 
@@ -23,5 +26,62 @@ body {
 }
 
 #tarja-1 {
-    border: 1px solid black
+    border: 2px solid #d2c5c1;
+    border-radius: 8px;
+    color: #d2c5c1;
+    font-family: fantasy;
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#frase-1 {
+    text-align: center;
+    color: #d2c5c1;
+    font-family: Verdana;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h3 {
+    color: #d2c5c1;
+    font-family: Verdana;
+    font-size: 17px;
+    font-weight: normal;
+    border-top: 1px solid #d2c5c1;
+    border-bottom: 1px solid #d2c5c1;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+    color: #d2c5c1;
+    margin-left: 117px;
+    margin-right: 117px;
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+#contato {
+    font-family: fantasy;
+    font-size: 15px;
+    background-color: green;
+    border: 1px solid black;
+    width: 180px;
+    color: #d2c5c1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
