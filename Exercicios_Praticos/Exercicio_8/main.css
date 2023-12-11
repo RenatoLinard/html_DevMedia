@@ -28,3 +28,15 @@ a {
     display: flex;
     justify-content: center;
 }
+
+span {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#foto {
+    width: 150px;
+    border-radius: 16px;
+}
