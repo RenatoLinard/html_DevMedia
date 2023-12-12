@@ -116,3 +116,34 @@ Através do atributo `reversed`, invertemos a ordem da lista.
     <li>Item</li>
 </ol>
 ```
+### Exemplo prático
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista Aninhada</title>
+</head>
+<body>
+  <!-- Cronograma de estudos -->
+  <ol>
+    <li>
+      <h3>FRONT-END</h3>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+      </ol>
+    </li>
+    <li>
+      <h3>BACK-END</h3>
+      <ol>
+        <li>Lógica de programação com PHP</li>
+        <li>Estrutura de dados com PHP</li>
+        <li>Orientação a objetos com PHP</li>
+      </ol>
+    </li>
+  </ol>
+</body>
+</html>
+```
