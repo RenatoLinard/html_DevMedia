@@ -55,3 +55,64 @@ Como o principal objetivo do HTML é organizar e estruturar um documento criando
 Outro benefício é que o Google saberá diferenciar as listas dos demais conteúdos.
 
 Também é possível estilizar uma lista através do CSS, dando um aspecto mais bonito para as listas.
+
+## Listas ordenadas
+
+Como foi visto, o objetivo da lista ordenada é listar itens de maneira ordenada dentro de um documento HTML.
+
+### Sintaxe 
+
+O início e o fim de uma lista ordenada se dão pela abertura e fechamento da tag `<ol>...</ol>`, e um item inicia e fecha com as tags `<li>...</li>`.
+
+Dentro de um item, podemos utilizar qualquer outro elemento como títulos, imagens, parágrafos e até mesmo fazer um aninhamento com outras listas.
+
+### Atribuição de marcação (type)
+
+Uma lista ordenada pode ser identificada pelo seu marcador, que por padrão vem com uma ordenação numérica. No entanto, podemos alterar a marcação para outros tipos como:
+
+- Numerais romanos 
+- Ordenação alfabética
+
+E em ambos os casos, podemos utilizar na forma maiúscula ou minúscula.
+
+### Alterando a marcação
+
+Para fazer a alteração do marcador, utilizamos o atributo `type`.
+
+- `<ol type="1">` - Ordenação numérica (padrão)
+- `<ol type="A">` - Ordenação alfabética maiúscula
+- `<ol type="a">` - Ordenação alfabética minúscula
+- `<ol type="i">` - Numerais romanos minúscula
+- `<ol type="I">` - Numerais romanos maiúscula
+
+```html
+<ol type="I">
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+</ol>
+```
+
+### Ponto de partida (start)
+
+Podemos definir um ponto de partida usando o atributo `start`. Dessa forma, a numeração iniciará com o número especificado.
+
+```html
+<ol start="3">
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+</ol>
+```
+
+### Invertendo a ordem (reversed)
+
+Através do atributo `reversed`, invertemos a ordem da lista.
+
+```html
+<ol reversed>
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+</ol>
+```
