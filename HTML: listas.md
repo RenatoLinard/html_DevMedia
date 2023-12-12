@@ -147,3 +147,67 @@ Através do atributo `reversed`, invertemos a ordem da lista.
 </body>
 </html>
 ```
+
+## Listas não ordenadas
+
+O objetivo dessa lista é agrupar itens sem se preocupar com a sequencia delas.
+
+### Sintaxe
+
+Uma lista não ordenada se inicia e finaliza com as tags `<ul>...</ul>` e os itens
+se iniciam e finalizam com as tags `<li>...</il>`.
+
+Assim como as listas ordenadas podemos utilizar qualquer elemento dentro das listas
+não ordenadas.
+
+```html
+<ul>
+    <li>Laravel</li>
+    <li>Controle de versão Git</li>
+    <li>Orientação a objetos</li>
+    <li>Arquitetura MVC</li>
+</ul> 
+```
+
+### Atributo de marcação (type)
+
+Nas listas não ordenadas também podemos alterar o marcador com o atributo `type` 
+que por padrão são setados com o valor `disc` (círculos pretos).
+
+- `<ul type="circle">` - marcação com bolinhas pretas
+- `<ul type="square">` - marcação com quadrados
+- `<ul type="circle">` - marcação com bolinhas vazias
+- `<ul type="none">` - remove a marcação dos itens
+
+### Exemplo prático
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Categorizando produtos</title>
+</head>
+<body>
+<ul>
+    <li>
+        <h3>Eletrodomésticos</h3>
+        <ul type="circle">
+            <li>Torradeiras</li>
+            <li>Fornos e Fogões</li>
+            <li>Geladeiras</li>
+        </ul>
+    </li>
+    <li>
+        <h3>Hardware</h3>
+        <ul type="circle">
+            <li>Placas de vídeo</li>
+            <li>Pl
+
+acas de Som</li>
+            <li>Processadores</li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
+```
