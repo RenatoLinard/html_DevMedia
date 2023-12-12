@@ -28,3 +28,30 @@ São utilizadas para indicar uma sucessão de itens ou sequência de passos.
 ### Listas não ordenadas
 
 São usadas para listar itens que não se sucedem ou a ordem não tem relevância.
+
+```html
+<ul>
+    <li>Smartphone</li>
+    <li>Câmera</li>
+    <li>Notebook</li>
+</ul>
+```
+
+### Lista de definição
+
+Usada para citar algum termo seguido de sua definição.
+
+```html
+<dl>
+    <dt>Amor</dt>
+    <dd>Forte afeição por outra pessoa</dd>
+</dl>
+```
+
+### Por que são úteis
+
+Como o principal objetivo do HTML é organizar e estruturar um documento criando uma semântica, utilizar listas tem essa mesma ideia de organização, separando as listagens em seus contextos corretos.
+
+Outro benefício é que o Google saberá diferenciar as listas dos demais conteúdos.
+
+Também é possível estilizar uma lista através do CSS, dando um aspecto mais bonito para as listas.
