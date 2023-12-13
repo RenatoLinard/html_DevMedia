@@ -1,0 +1,26 @@
+body {
+    background-color: #F2D6BD;
+}
+div {
+    background-color: #D99379;
+    margin: 20px auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 30px;
+    color: #BF4136;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #591607;
+}
