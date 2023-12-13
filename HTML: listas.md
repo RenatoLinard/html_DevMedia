@@ -174,7 +174,7 @@ não ordenadas.
 Nas listas não ordenadas também podemos alterar o marcador com o atributo `type` 
 que por padrão são setados com o valor `disc` (círculos pretos).
 
-- `<ul type="circle">` - marcação com bolinhas pretas
+- `<ul type="disc">` - marcação com bolinhas pretas
 - `<ul type="square">` - marcação com quadrados
 - `<ul type="circle">` - marcação com bolinhas vazias
 - `<ul type="none">` - remove a marcação dos itens
@@ -201,13 +201,40 @@ que por padrão são setados com o valor `disc` (círculos pretos).
         <h3>Hardware</h3>
         <ul type="circle">
             <li>Placas de vídeo</li>
-            <li>Pl
-
-acas de Som</li>
+            <li>Placas de Som</li>
             <li>Processadores</li>
         </ul>
     </li>
 </ul>
 </body>
 </html>
+```
+
+## Lista de definição
+
+Tem como objetivo exibir os termos e suas respectivas definições.
+
+### Sintaxe
+
+- `<dl>...</dl>` - Tags de abertura e fechamento de uma lista de definição
+- `<dt>...</dt>` - Tags de abertura e fechamento de um termo
+- `<dd>...</dd>` - Tags de abertura e fechamento de uma descrição
+
+Podemos utilizar outros elementos dentro de uma lista de definição.
+
+Uma lista de definiçao é composto por um termo e um ou mais definições.
+
+### Exemplo prático
+
+```html
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação utilizada na construção de páginas Web</dd>
+
+    <dt>CSS</dt>
+    <dd>Linguagem de estilo usada para definir a apresentação de um documento HTML</dd>
+
+    <dt>Javascript</dt>
+    <dd>Linguagem de programação utilizada em páginas web.</dd>
+</dl>
 ```
