@@ -24,3 +24,14 @@ h2 {
     line-height: 30px;
     color: #591607;
 }
+
+#lista {
+    display: flex;
+    align-items: flex-start;
+    padding:10px;
+}
+
+#carreira {
+    font-size: 20px;
+    font-weight: bold;
+}
