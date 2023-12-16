@@ -65,3 +65,7 @@ Seu uso basicamente envolve utilizar o nome da tag dentro do código CSS, adicio
 ### Quando Utilizamos
 
 Optamos por utilizar o seletor de tag quando desejamos aplicar o mesmo estilo a tags iguais em diferentes partes do documento.
+
+## Seletor de Classe
+
+
