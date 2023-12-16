@@ -4,8 +4,7 @@ Este documento aborda a solução para o desafio de estilização divergente em 
 
 ## Modificando a Aparência de Tags Semelhantes
 
-Não é sempre desejável que elementos idênticos compartilhem a mesma aparência.
-Para lidar com essa situação, utilizamos um seletor CSS para diferenciar os estilos de tags semelhantes.
+Não é sempre desejável que elementos idênticos compartilhem a mesma aparência. Para lidar com essa situação, utilizamos um seletor CSS para diferenciar os estilos de tags semelhantes.
 
 Inicialmente, aprendemos a empregar o seletor de tag da seguinte maneira:
 
@@ -47,3 +46,22 @@ div {
 }
 ```
 
+## Seletor de Tag
+
+Já vimos a estilização através do seletor de tag anteriormente.
+
+```css
+span {
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+```
+
+Dessa forma, o CSS identifica o elemento pela tag na página e estiliza de forma global a tag.
+
+Seu uso basicamente envolve utilizar o nome da tag dentro do código CSS, adicionando as propriedades desejadas e, assim, alterando a aparência de qualquer elemento identificado por aquela tag.
+
+### Quando Utilizamos
+
+Optamos por utilizar o seletor de tag quando desejamos aplicar o mesmo estilo a tags iguais em diferentes partes do documento.
