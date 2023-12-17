@@ -114,3 +114,7 @@ Basta utilizar o sinal de ponto (.) junto com o nome da classe.
     font-weight: bold;
 }
 ```
+
+### Combinando estilos de seletores
+
+
