@@ -68,4 +68,49 @@ Optamos por utilizar o seletor de tag quando desejamos aplicar o mesmo estilo a 
 
 ## Seletor de Classe
 
+Permite definir estilos específicos na página.
 
+### Conhecendo o Seletor de Classe 
+
+Inicialmente, aprendemos que para deixar elementos iguais com a mesma aparência, utilizamos o seletor de tag.
+
+E se quisermos alterar a aparência de uma tag específica?
+
+Para isso, utilizamos o seletor de classe, que permite deixar elementos iguais com aparências diferentes.
+
+### Como Usar
+
+No código HTML:
+
+```html
+<span class="texto-destaque">estilo diferente</span>
+```
+
+Na tag de abertura, inserimos o atributo `class` seguido de um valor entre aspas duplas.
+
+No código CSS:
+
+```css
+.texto-destaque {
+    color: red;
+}
+```
+
+Basta utilizar o sinal de ponto (.) junto com o nome da classe.
+
+### Exemplo de Uso
+
+```html
+...
+<p>Os <span> elementos de classe</span> no CSS permitem aplicar estilos 
+<span class="texto-destaque">personalizados</span>.</p>
+...
+```
+
+```css
+.texto-destaque {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+```
