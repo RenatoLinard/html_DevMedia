@@ -117,4 +117,28 @@ Basta utilizar o sinal de ponto (.) junto com o nome da classe.
 
 ### Combinando estilos de seletores
 
+Caso houver uma estilização atraves do seletor de tag e um outro atraves de classe
+o seletor de tag irá estilizar globalmente as tags selecionadas e o seletor de 
+classe irá estilizar a tag selecionada fazendo uma combinação dos seletores, dessa
+forma a tag em questão terá os dois seletores para estilização.
+
+```html
+<span class="texto-destaque">estilo diferente</span>
+```
+
+```css
+span {
+    font-weight: bold;
+}
+.texto-destaque {
+    color: red;
+}
+```
+
+Dessa forma a tag span será negrito devido o seletor de tag e terá a cor vermelha
+devido o seletor de classe.
+
+### Sobreescrevendo estilos com seletores
+
+
 
