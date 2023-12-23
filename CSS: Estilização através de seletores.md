@@ -115,12 +115,9 @@ Basta utilizar o sinal de ponto (.) junto com o nome da classe.
 }
 ```
 
-### Combinando estilos de seletores
+### Combinando Estilos de Seletores
 
-Caso houver uma estilização atraves do seletor de tag e um outro atraves de classe
-o seletor de tag irá estilizar globalmente as tags selecionadas e o seletor de 
-classe irá estilizar a tag selecionada fazendo uma combinação dos seletores, dessa
-forma a tag em questão terá os dois seletores para estilização.
+Quando há estilização através do seletor de tag e outro através de uma classe, o seletor de tag irá estilizar globalmente as tags selecionadas, enquanto o seletor de classe irá estilizar a tag selecionada, combinando os efeitos dos dois seletores. Desta forma, a tag em questão terá ambos os seletores aplicados para estilização.
 
 ```html
 <span class="texto-destaque">estilo diferente</span>
@@ -135,10 +132,41 @@ span {
 }
 ```
 
-Dessa forma a tag span será negrito devido o seletor de tag e terá a cor vermelha
-devido o seletor de classe.
+Assim, a tag `<span>` será exibida em negrito devido ao seletor de tag e terá a cor vermelha devido ao seletor de classe.
 
-### Sobreescrevendo estilos com seletores
+### Sobrescrevendo Estilos com Seletores
 
+No exemplo anterior, demonstramos a combinação de seletores. Agora, se desejarmos remover apenas o estilo de negrito da tag que também possui o seletor de classe, devemos incluir no seletor de classe a instrução para normalizar o peso da fonte.
 
+```html
+<span class="texto-destaque">estilo diferente</span>
+```
 
+```css
+span {
+    font-weight: bold;
+}
+.texto-destaque {
+    color: red;
+    font-weight: normal;
+}
+```
+
+Dessa forma, estamos sobrescrevendo o estilo definido pelo seletor de tag, removendo o negrito especificamente para a classe em questão.
+
+### Utilizando uma Classe em Dois Elementos
+
+Uma abordagem alternativa para resolver o problema mencionado acima é criar duas classes distintas: uma para textos em negrito e outra para textos com a cor vermelha.
+
+```css
+.texto-negrito {
+    font-weight: bold;
+}
+.texto-vermelho {
+    color: red;
+}
+```
+
+Assim, podemos selecionar os textos que desejamos em negrito com o seletor 
+`.texto-negrito` e os textos que desejamos em vermelho com o seletor `.texto-vermelho`. 
+Essa prática permite o uso da mesma classe em mais de um elemento, proporcionando flexibilidade e reusabilidade.
