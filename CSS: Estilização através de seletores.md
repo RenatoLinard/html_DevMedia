@@ -170,3 +170,5 @@ Uma abordagem alternativa para resolver o problema mencionado acima é criar dua
 Assim, podemos selecionar os textos que desejamos em negrito com o seletor 
 `.texto-negrito` e os textos que desejamos em vermelho com o seletor `.texto-vermelho`. 
 Essa prática permite o uso da mesma classe em mais de um elemento, proporcionando flexibilidade e reusabilidade.
+
+
