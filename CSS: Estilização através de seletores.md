@@ -171,4 +171,53 @@ Assim, podemos selecionar os textos que desejamos em negrito com o seletor
 `.texto-negrito` e os textos que desejamos em vermelho com o seletor `.texto-vermelho`. 
 Essa prática permite o uso da mesma classe em mais de um elemento, proporcionando flexibilidade e reusabilidade.
 
+## Reaproveitando Classes
 
+### Reaproveitando Classe em Elementos Diferentes
+
+Anteriormente, observamos que podemos usar a mesma classe em elementos semelhantes. Agora, expandindo essa ideia, podemos aplicar classes a elementos diferentes.
+
+### Utilizando Mais de uma Classe no Mesmo Elemento
+
+É possível adicionar mais de um estilo a um elemento. Para isso, criamos uma nova classe.
+
+```css
+.texto-verde {
+    color: green;
+}
+```
+
+Em seguida, adicionamos a nova classe ao elemento.
+
+```html
+<span class="texto-negrito texto-verde">Texto exemplo</span>
+```
+
+Observe que separamos as classes com um espaço em branco.
+
+## Agrupando Seletores
+
+### Agrupando Seletores de Tag
+
+Anteriormente, aprendemos a definir a mesma aparência para várias tags usando vírgulas.
+
+```css
+a, p {
+    color: red;
+}
+```
+
+Esse conceito é chamado de `agrupamento de seletores`.
+
+### Agrupando Seletores de Classe
+
+Podemos agrupar seletores de classe da mesma forma que os seletores de tag.
+
+```css
+.subtitulo, .paragrafo {
+    font-family: Helvetica;
+    font-size: 18px;
+}
+```
+
+Semelhante ao seletor de tag, agrupamos as classes separando-as por vírgulas.
