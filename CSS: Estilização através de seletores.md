@@ -221,3 +221,49 @@ Podemos agrupar seletores de classe da mesma forma que os seletores de tag.
 ```
 
 Semelhante ao seletor de tag, agrupamos as classes separando-as por vírgulas.
+
+## Descendência de Elementos
+
+Neste tópico, aprenderemos como agrupar seletores no código CSS.
+
+### Seletores de Tags Descendentes
+
+Se desejarmos estilizar um elemento específico dentro de outro, podemos utilizar o seletor de tag e indicar dentro de qual elemento ele se encontra.
+
+```html
+<div>
+    <p>Esse é um parágrafo</p>
+</div>
+```
+
+```css
+div p {
+    font-weight: bold;
+    color: red;
+}
+```
+
+Primeiro, indicamos a tag que envolve o elemento e, em seguida, utilizamos um 
+espaço e especificamos o elemento que queremos estilizar.
+
+Ao combinarmos seletores de tag, é importante ter em mente que a combinação 
+será aplicada a toda a estrutura HTML. Portanto, é crucial ter cuidado ao 
+realizar essas combinações para evitar estilos indesejados.
+
+### Seletores de Classes Descendentes
+
+Da mesma forma que fizemos anteriormente com o seletor de tag podemos combinar 
+os seletores de classe para estilzar elementos especificos.
+
+```css
+.secao-conteudo .texto {
+    color: #109ce3;
+    border-left: 5px solid #109ce3;
+    padding-left: 10px;
+}
+```
+
+Primeiro, indicamos a classe que envolve o elemento e em seguida, utilzamos um 
+espaço em branco e especificamos o elemento que queremos estilizar.
+
+
