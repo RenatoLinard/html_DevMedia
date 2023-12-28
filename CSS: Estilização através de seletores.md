@@ -265,5 +265,3 @@ os seletores de classe para estilzar elementos especificos.
 
 Primeiro, indicamos a classe que envolve o elemento e em seguida, utilzamos um 
 espaço em branco e especificamos o elemento que queremos estilizar.
-
-
