@@ -220,7 +220,9 @@ Podemos agrupar seletores de classe da mesma forma que os seletores de tag.
 }
 ```
 
-Semelhante ao seletor de tag, agrupamos as classes separando-as por vírgulas.
+Semelhante ao seletor
+
+ de tag, agrupamos as classes separando-as por vírgulas.
 
 ## Descendência de Elementos
 
@@ -253,7 +255,7 @@ realizar essas combinações para evitar estilos indesejados.
 ### Seletores de Classes Descendentes
 
 Da mesma forma que fizemos anteriormente com o seletor de tag podemos combinar 
-os seletores de classe para estilzar elementos especificos.
+os seletores de classe para estilizar elementos especificos.
 
 ```css
 .secao-conteudo .texto {
@@ -263,5 +265,44 @@ os seletores de classe para estilzar elementos especificos.
 }
 ```
 
-Primeiro, indicamos a classe que envolve o elemento e em seguida, utilzamos um 
+Primeiro, indicamos a classe que envolve o elemento e em seguida, utilizamos um 
 espaço em branco e especificamos o elemento que queremos estilizar.
+
+### Seletores de Classe e de Tag
+
+Podemos combinar seltores de `classe` com o de `tag`.
+
+```css
+.texto-destaque span {
+    font-weight: bold;
+}
+```
+
+No exemplo acima estamos estilizando o elemento span que está contido em outro 
+elemento porem utilizamos a classe para selecionar o elemento que está contendo
+o span.
+
+Usamos a mesma sintaxe de combinação:
+
+`classe + espaço + tag`
+
+Nesse caso estilizamos somente os elementos span que estão contidos no elemento
+que tiver a classe `.texto-destaque`.
+
+### Seletores de Tag e Classe
+
+Da mesma forma que fizemos anteriormente podemos estilizar um elemento que 
+possui o seletor de classe que está contido dentro de um outro elemento porem
+usando o seletor de tag.
+
+```css
+p .texto-destaque {
+    font-weight: bold;
+    color: orange;
+}
+```
+
+Repare que a sintaxe segue a mesma lógica acima, porem invertemos quem está
+contendo quem.
+
+`tag + espaço + classe`
