@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    background-color: #E9ECF2;
+}
+
+.header {
+    background-color: #7AACBF;
+    height: 250px;
+    border-radius: 0px 0px 16px 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0px;
+    font-family: fantasy;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 18px;
+    
+}
+
+.destaque-azul {
+    color: #0060b6;
+}
+
+.header a {
+    color: #2E3B40;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.links {
+    margin-top: 40px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
