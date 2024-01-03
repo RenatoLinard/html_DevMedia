@@ -113,7 +113,14 @@ aba, com essa propriedade podemos alterar esse comportamento.
 
 `_blank`- Abre a url em uma nova aba.
 
+#### Enviando o usuário para um elemento da página
 
+Na propriedade `href` escrevemos `#` seguido pelo `id` do elemento para onde 
+queremos enviar o usuário.
+
+```html
+<a href="#sobre">sobre</a>
+```
 
 ### Tag `<img>`
 
