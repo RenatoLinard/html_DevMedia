@@ -1,10 +1,10 @@
 body {
     margin: 0px;
-    background-color: #E9ECF2;
+    background-color: #F2F2F2;
 }
 
 .header {
-    background-color: #7AACBF;
+    background-color: #94BDF2;
     height: 250px;
     border-radius: 0px 0px 16px 16px;
     display: flex;
@@ -15,29 +15,30 @@ body {
 }
 
 .header img {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-}
-
-.header h1 {
-    font-size: 18px;
-    
-}
-
-.destaque-azul {
-    color: #0060b6;
+    width: 200px;
 }
 
 .header a {
-    color: #2E3B40;
+    color: black;
     font-family: Arial;
     font-weight: bold;
 }
 
 .links {
-    margin-top: 40px;
     display: flex;
     width: 300px;
     justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    width: 1340px;
+    height: 600px;
+    border-radius: 32px;
+    margin-top: 20px;
 }

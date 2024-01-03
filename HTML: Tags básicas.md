@@ -73,14 +73,47 @@ Neste documento, exploraremos o uso das tags básicas do HTML, essenciais para e
 
 - Cria uma ligação entre páginas quando clicado sobre o link.
 
-- Possui propriedades como `href` (URL de redirecionamento), `target` (comportamento de abertura da página).
+- Para criação de um link basta utilizar a tag de abertura, o conteúdo e a tag
+de fechameto.
 
-- Exemplo:
-    ```html
-    <a href="https://github.com/RenatoLinard">
-      Github
-    </a>
-    ```
+```html
+<a>conteúdo</a>
+```
+
+O conteúdo dentro das tags será exibido para o usuário.
+
+##### Propriedades
+
+A tag `a` possui algumas propriedades que estão relacionadas ao link.
+
+- `href`- Propriedade que irá redirecionar para o conteúdo desejado.
+
+- A url para onde a página será redirecionada.
+
+```html
+<a href="https://github.com/RenatoLinard">Renato Linard</a>
+```
+
+- Um número de telefone.
+
+```html
+<a href="tel:+5567998811748"> (67) 998811748 </a>
+```
+
+- Um endereço de email
+
+```html
+<a href="mailto:renatolinardjr@gmail.com">Enviar emal</a>
+```
+
+- `target`- Por padrão quado clidado em um link a página é aberta na mesma 
+aba, com essa propriedade podemos alterar esse comportamento.
+
+`_self`- Abre a url na mesma página.
+
+`_blank`- Abre a url em uma nova aba.
+
+
 
 ### Tag `<img>`
 
