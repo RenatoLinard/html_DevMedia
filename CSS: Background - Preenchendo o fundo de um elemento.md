@@ -71,13 +71,9 @@ também podemos empregar URLs de sites para incorporar imagens.
 A propriedade `background-image` pode ser empregada em qualquer seletor CSS, 
 proporcionando flexibilidade na aplicação da estilização desejada.
 
-## Estilizando a imagem de fundo
+## Estilizando a Imagem de Fundo
 
-Ao preencher um elemento com uma imagem, por padrão ela se repete para preencher
-todo espaço do elemento.
-
-Podemos impedir que a imagem se repita utilizando a propriedade 
-`background-repeat` e o valor `no-repeat`.
+Quando preenchemos um elemento com uma imagem, por padrão, ela se repete para ocupar todo o espaço disponível. Para evitar a repetição, utilizamos a propriedade `background-repeat` com o valor `no-repeat`.
 
 ```css
 div {
@@ -85,16 +81,11 @@ div {
 }
 ```
 
-Ou definir que ela vai ser repetir verticalmente utilizando o valor 
-`repeat-y` e horizontalmente utilizando o valor `repeat-x`.
+Também é possível controlar a repetição vertical (`repeat-y`) ou horizontal (`repeat-x`) da imagem. Em casos onde a imagem não preenche completamente o espaço, podemos utilizar `background-color` para preencher o restante com uma cor desejada.
 
-Ao utilizar a propriedade `background-repeat` e definir que a imagem não vai se 
-repetir podemos preencher o espaço vazio com uma cor usando `background-color`.
+### Posicionando a Imagem de Fundo
 
-### Posicionando a imagem de fundo
-
-Depois de inserida a imagem podemos posiciona-la utilzando a propriedade
-`background-position`.
+Após inserir a imagem, podemos posicionar utilizando a propriedade `background-position`.
 
 ```css
 div {
@@ -106,7 +97,7 @@ div {
 }
 ```
 
-Também podemos misturar as posições.
+Misturar posições também é viável.
 
 ```css
 div {
@@ -115,6 +106,27 @@ div {
 }
 ```
 
-### Ajustando o tamanho da imagem de fundo 
+### Ajustando o Tamanho da Imagem de Fundo
 
+Para modificar o tamanho da imagem de fundo, utilizamos a propriedade `background-size`.
 
+#### Valores Possíveis
+
+- `cover`: Preenche todo o espaço do elemento, exibindo apenas parte da imagem.
+- `contain`: Estica a imagem para que caiba no elemento, mantendo a proporção.
+- `50% 50%`: Define a porcentagem do tamanho do elemento que a imagem ocupará (largura e altura).
+- `500px 500px`: Utiliza valores em pixels para definir largura e altura.
+
+### Fixando a Imagem de Fundo
+
+Ao rolar a página, a imagem de fundo normalmente acompanha o movimento. Para mantê-la estática, utilizamos `background-attachment` com o valor `fixed`, criando o efeito conhecido como `parallax`. Isso gera uma ilusão de profundidade, tornando a imagem estática enquanto o conteúdo rola.
+
+## Escrita Reduzida
+
+Podemos simplificar a escrita utilizando uma forma reduzida para a propriedade `background`.
+
+```css
+background: top right no-repeat #0f0 fixed url('img/fundo-floresta.jpg');
+```
+
+Apesar de não haver uma ordem específica, é recomendável manter os valores separados para facilitar a manutenção durante a fase de desenvolvimento.
