@@ -4,9 +4,12 @@ Ao desenvolver uma página, é comum buscarmos maneiras de realçar a presença 
 
 ## Valorizando a Estética dos Elementos
 
-No tópico anterior, exploramos como modificar a cor de fundo de um elemento usando a propriedade `background-color`.
+No tópico anterior, exploramos como modificar a cor de fundo de um elemento 
+usando a propriedade `background-color`.
 
-No entanto, em determinadas situações, é mais atrativo utilizar uma imagem para estilizar o fundo do elemento. Essa personalização é possível através da propriedade `background-image`.
+No entanto, em determinadas situações, é mais atrativo utilizar uma 
+imagem para estilizar o fundo do elemento. Essa personalização é 
+possível através da propriedade `background-image`.
 
 ```css
 div {
@@ -18,7 +21,8 @@ div {
 }
 ```
 
-Essa abordagem é frequentemente aplicada em caixas (boxes), cartões (cards) e seções de uma página, proporcionando um visual mais dinâmico.
+Essa abordagem é frequentemente aplicada em caixas (boxes), cartões (cards) 
+e seções de uma página, proporcionando um visual mais dinâmico.
 
 ## Conceito de Background
 
