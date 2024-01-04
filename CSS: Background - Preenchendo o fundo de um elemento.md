@@ -44,24 +44,29 @@ como o nome nominal, o código hexadecimal ou o formato RGB.
 
 ## Background-image
 
-Ja foi comentado que é possivel utilizar uma imagem como fundo de um elemento
-para estilização.
+Anteriormente, abordamos a possibilidade de utilizar uma imagem como fundo para 
+estilizar um elemento.
 
-### Como utilizar
+### Como Implementar
 
 ```css
 div {
-    background-image: url('img/img-fundo.jpg')
+    background-image: url('img/img-fundo.jpg');
 }
 ```
 
-Inserimos a propriedade `background-image` seguido de dois pontos, em seguida
-inserimos url abrimos parênteses e aspas.
+Para aplicar essa técnica, utilizamos a propriedade `background-image` 
+seguida por dois pontos. Em seguida, inserimos a URL da imagem entre parênteses 
+e aspas, lembrando de incluir a extensão do arquivo no caminho.
 
-Dentro do parênteses e aspas inserimos o caminho da imagem.
+### Localização das Imagens
 
-Lembrar que precisamos inserir a extensão da imagem junto no caminho.
+A organização é fundamental. Recomenda-se criar uma pasta específica 
+para armazenar as imagens do site. Dessa forma, ao inserir o caminho da 
+imagem utilizando a propriedade `background-image`, referenciamos a pasta do projeto.
 
-### Onde salvar a imagem
+É válido ressaltar que, além de utilizar imagens salvas localmente, 
+também podemos empregar URLs de sites para incorporar imagens.
 
-
+A propriedade `background-image` pode ser empregada em qualquer seletor CSS, 
+proporcionando flexibilidade na aplicação da estilização desejada.
