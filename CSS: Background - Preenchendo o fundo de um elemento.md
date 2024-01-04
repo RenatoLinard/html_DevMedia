@@ -42,4 +42,26 @@ Basta escrever o nome da propriedade seguido por dois pontos e a cor desejada.
 Vale ressaltar que é possível utilizar diferentes formatos de cor, 
 como o nome nominal, o código hexadecimal ou o formato RGB.
 
+## Background-image
+
+Ja foi comentado que é possivel utilizar uma imagem como fundo de um elemento
+para estilização.
+
+### Como utilizar
+
+```css
+div {
+    background-image: url('img/img-fundo.jpg')
+}
+```
+
+Inserimos a propriedade `background-image` seguido de dois pontos, em seguida
+inserimos url abrimos parênteses e aspas.
+
+Dentro do parênteses e aspas inserimos o caminho da imagem.
+
+Lembrar que precisamos inserir a extensão da imagem junto no caminho.
+
+### Onde salvar a imagem
+
 
