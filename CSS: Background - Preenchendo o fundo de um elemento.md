@@ -70,3 +70,51 @@ também podemos empregar URLs de sites para incorporar imagens.
 
 A propriedade `background-image` pode ser empregada em qualquer seletor CSS, 
 proporcionando flexibilidade na aplicação da estilização desejada.
+
+## Estilizando a imagem de fundo
+
+Ao preencher um elemento com uma imagem, por padrão ela se repete para preencher
+todo espaço do elemento.
+
+Podemos impedir que a imagem se repita utilizando a propriedade 
+`background-repeat` e o valor `no-repeat`.
+
+```css
+div {
+    background-repeat: no-repeat;
+}
+```
+
+Ou definir que ela vai ser repetir verticalmente utilizando o valor 
+`repeat-y` e horizontalmente utilizando o valor `repeat-x`.
+
+Ao utilizar a propriedade `background-repeat` e definir que a imagem não vai se 
+repetir podemos preencher o espaço vazio com uma cor usando `background-color`.
+
+### Posicionando a imagem de fundo
+
+Depois de inserida a imagem podemos posiciona-la utilzando a propriedade
+`background-position`.
+
+```css
+div {
+    background-position: center;
+    background-position: left;
+    background-position: right;
+    background-position: top;
+    background-position: bottom;
+}
+```
+
+Também podemos misturar as posições.
+
+```css
+div {
+    background-position: center top;
+    background-position: right bottom;
+}
+```
+
+### Ajustando o tamanho da imagem de fundo 
+
+
