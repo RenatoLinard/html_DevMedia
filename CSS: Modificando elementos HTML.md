@@ -19,3 +19,19 @@ Já discutimos anteriormente como utilizar essas propriedades.
 Nesta seção, abordaremos a definição de altura, largura mínima e máxima 
 de um elemento. Além disso, aprenderemos a trabalhar com altura e largura 
 relativas, e entenderemos como alterar a **visibilidade** de um elemento.
+
+## Por que é útil?
+
+A customização de elementos por meio do CSS é amplamente útil para atender 
+às necessidades específicas de uma página. Por exemplo, ao exibir uma 
+imagem com uma largura fixa de 1400px em uma tela pequena, a página pode 
+quebrar e apresentar uma barra de rolagem horizontal.
+
+Uma solução para esse problema é a utilização de largura relativa, como, por 
+exemplo, 50%. Dessa forma, a imagem sempre terá metade da largura 
+da tela, evitando que a página quebre.
+
+Outra abordagem para lidar com essa situação é o uso de largura 
+mínima e máxima, ou até mesmo cálculos de tamanho. Há diversas maneiras de 
+resolver um mesmo problema, e a escolha da abordagem dependerá das 
+necessidades específicas de cada caso.
