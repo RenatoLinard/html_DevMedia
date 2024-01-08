@@ -59,9 +59,26 @@ img {
 }
 ```
 
-### VW e VH
+### vw e vh
 
 - `VW` - é uma medida de valor relativo que se refere à largura da tela. 
 Cada 1vw corresponde a 1% da largura da tela.
 - `VH` - Funciona da mesma maneira que o `vw`, mas o `vh` faz referência à 
 altura da tela.
+
+### vw e vh - sintaxe 
+
+O valor `vw` e `vh` pode ser utilizada em qualquer propriedade que aceite valores 
+em pixels, tais como: **width, height, margin, padding**.
+
+```css
+img {
+    width: 50vw;
+    height: 60vh;
+    margin: 5vh 5vw;
+    padding: 3vh 0;
+}
+```
+
+Para utilizar basta passar o valor seguido de `vw` ou `vh` para a propriedade 
+desejada.
