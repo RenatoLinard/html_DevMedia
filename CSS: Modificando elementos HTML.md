@@ -85,4 +85,33 @@ desejada.
 
 # Calc
 
+Em alguns casos, desejamos que uma imagem ocupe **toda a largura** da tela.
+
+```css
+img {
+    width: 100vw;
+}
+```
+
+No entanto, se quisermos adicionar uma **borda**, **margem** ou **padding** 
+à imagem, isso pode quebrar a página devido ao aumento dos pixels da imagem.
+
+A imagem continuará tendo os **100vw**, mas com a adição das margens, a imagem 
+se afasta pela quantidade de pixels definida para margem ou padding, colocando-a fora da tela.
+
+Para evitar esse problema, podemos utilizar o **calc**.
+
+```css
+img {
+    width: calc(100vw - 60px);
+    margin: 30px;
+}
+```
+
+Com o uso do **calc**, podemos instruir o **CSS** a realizar cálculos 
+utilizando valores **relativos (%, vw, vh) e fixos**. 
+Isso permite um controle mais preciso sobre as dimensões e posicionamento 
+dos elementos, evitando quebras na apresentação da página.
+
+
 
