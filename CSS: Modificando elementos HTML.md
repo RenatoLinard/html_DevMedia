@@ -83,7 +83,7 @@ img {
 Para utilizar basta passar o valor seguido de `vw` ou `vh` para a propriedade 
 desejada.
 
-# Calc
+## Calc
 
 Em alguns casos, desejamos que uma imagem ocupe **toda a largura** da tela.
 
@@ -113,5 +113,24 @@ utilizando valores **relativos (%, vw, vh) e fixos**.
 Isso permite um controle mais preciso sobre as dimensões e posicionamento 
 dos elementos, evitando quebras na apresentação da página.
 
+No exemplo acima, removemos **60px** da **largura** da imagem 
+(**30px** da margem esquerda e **30px** da margem direita).
 
+Ao contrário de **%**, **vw**, **vh**, o **calc** não é um valor 
+por si só, mas sim uma ferramenta para **calcular valores** no **CSS**.
 
+### calc - Sintaxe
+
+Agora que compreendemos o propósito do **calc**, vamos examinar como usá-lo.
+
+```css
+img {
+    width: calc(100vw - 60px);
+}
+```
+
+Adicionamos o **calc** à propriedade na qual desejamos calcular um valor.
+
+Ao lado do **calc**, abrimos e fechamos parênteses, e inserimos o cálculo dentro deles.
+
+O **calc** também pode ser empregado em outras propriedades e para realizar cálculos mais complexos.
