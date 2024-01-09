@@ -36,7 +36,7 @@ mínima e máxima, ou até mesmo cálculos de tamanho. Há diversas maneiras de
 resolver um mesmo problema, e a escolha da abordagem dependerá das 
 necessidades específicas de cada caso.
 
-## Valores Relativos
+# Valores Relativos
 
 Como mencionado anteriormente, um valor relativo é aquele que define 
 o seu valor com base em outro elemento.
@@ -44,7 +44,7 @@ o seu valor com base em outro elemento.
 Esse valor é expresso em porcentagem e faz com que o elemento filho ocupe a 
 proporção definida em relação ao elemento pai.
 
-### Porcentagem - Sintaxe
+## Porcentagem - Sintaxe
 
 A porcentagem pode ser utilizada em qualquer propriedade que aceite valores 
 em pixels, tais como: **width, height, margin, padding**.
@@ -59,7 +59,7 @@ img {
 }
 ```
 
-### vw e vh
+## vw e vh
 
 - `VW` - é uma medida de valor relativo que se refere à largura da tela. 
 Cada 1vw corresponde a 1% da largura da tela.
