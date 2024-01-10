@@ -134,3 +134,41 @@ Adicionamos o **calc** à propriedade na qual desejamos calcular um valor.
 Ao lado do **calc**, abrimos e fechamos parênteses, e inserimos o cálculo dentro deles.
 
 O **calc** também pode ser empregado em outras propriedades e para realizar cálculos mais complexos.
+
+# Definindo o Tamanho dos Elementos
+
+Anteriormente, utilizamos bastante a propriedade **width**. Agora, vamos 
+explorar a definição de largura mínima e máxima.
+
+## Definindo a Largura do Elemento
+
+Aprenderemos a utilizar as propriedades **min-width** e **max-width** 
+para estabelecer a largura mínima e máxima de um elemento.
+
+```css
+img {
+    width: 100%;
+    min-width: 1200px;
+}
+``` 
+
+A propriedade **min-width** determina a largura mínima do elemento, ou 
+seja, o menor tamanho que o elemento pode ter. No exemplo acima, a imagem 
+terá 100% de largura, mas não poderá ter menos de 1200px, garantindo seu 
+tamanho mínimo em telas menores que 1200px de largura.
+
+```css
+img {
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1300px;
+}
+```
+
+Para definir o tamanho máximo, utilizamos **max-width**. Este representa o 
+maior tamanho que o elemento pode alcançar. No exemplo, quando a tela 
+for maior que 1300px, o elemento não aumentará mais. Em telas iguais ou 
+ menores que 1300px, o elemento ocupará 100% da tela.
+
+Sempre que as propriedades **min-width** e **max-width** são definidas, elas 
+se sobrepõem ao tamanho especificado em **width**.
