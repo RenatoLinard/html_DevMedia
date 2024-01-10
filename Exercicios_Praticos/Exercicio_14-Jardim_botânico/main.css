@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ .topo, .rodape {
+     width: 100%;
+     padding: 16px 0;
+     text-align: center;
+     color: #fff;
+     font-size: 20px;
+     background-color: #1d6e4d;
+ }
+
+ .area {
+     width: calc(100% - 70px);
+     margin:  20px, 35px;
+ }
+
+ .limita-largura {
+     width: 1024px;
+     margin: 0 auto;
+ }
+
+ .apresentacao img, area .p, .area-tres-imagens {
+     width: 100%;
+     margin: 15px 0;
+ }
