@@ -194,4 +194,7 @@ queremos aplicar o estilo.
 As propriedade **min-width** e **max-width** suportam valores em **px**, **%**,
 **vw/vh**, e atá mesmo **calc*.
 
+## min-height e min-height - sintaxe
 
+**min** e **max-height** seguem as mesmas regras de sintaxe de **min** e 
+**max-width**, porém, controlando altura.
