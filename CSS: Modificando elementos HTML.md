@@ -172,3 +172,26 @@ for maior que 1300px, o elemento não aumentará mais. Em telas iguais ou
 
 Sempre que as propriedades **min-width** e **max-width** são definidas, elas 
 se sobrepõem ao tamanho especificado em **width**.
+
+## Definindo a altura do elemento
+
+**min** e **max-height** seguem as mesmas regras de **min** e **max-width**,
+porém, controlando a altura.
+
+## min-width e max-width - sintaxe
+
+```css
+img {
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1300px;
+}
+```
+
+Adicionamos a propriedade **min-width** e/ou **max-width** no elemento que 
+queremos aplicar o estilo.
+
+As propriedade **min-width** e **max-width** suportam valores em **px**, **%**,
+**vw/vh**, e atá mesmo **calc*.
+
+
