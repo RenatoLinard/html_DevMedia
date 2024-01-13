@@ -220,10 +220,10 @@ Em seguida informamos o valor que queremos aplicar ao **overflow**.
 
 O **overflow** possui diversos valores possíveis. Vejamos dois deles: 
 
-- `**scroll**`- Exibe a barra de rolagem horizontal e vertical garantindo que o 
+- `scroll`- Exibe a barra de rolagem horizontal e vertical garantindo que o 
 conteúdo interno não ultrapasse o tamanho exibido no css. Com o valor **scroll**
 as barras de rolagem seram exibidas independente se o conteúdo esteja ultrapassando 
 a área do elemento ou não.
 
-- `**auto**`- 
+- `auto`- 
 
