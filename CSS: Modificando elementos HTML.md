@@ -198,3 +198,32 @@ As propriedade **min-width** e **max-width** suportam valores em **px**, **%**,
 
 **min** e **max-height** seguem as mesmas regras de sintaxe de **min** e 
 **max-width**, porém, controlando altura.
+
+# Overflow
+
+O **overflow** garante que o conteúdo respeite as dimensões do elemento criando
+uma **barra de rolagem** que permite a leitura do texto sem ultrapassar o tamanho
+caso o texto seja muito grande e acaba ultrapassando o tamanho da área do elemento.
+
+## Overflow - sintaxe
+
+```css
+div {
+  overflow: scroll;  
+}
+```
+
+Para utilizar devemos adicionar a propriedade **overflow** no elemento que queremos 
+que tenha o tamanho respeitado.
+
+Em seguida informamos o valor que queremos aplicar ao **overflow**.
+
+O **overflow** possui diversos valores possíveis. Vejamos dois deles: 
+
+- `**scroll**`- Exibe a barra de rolagem horizontal e vertical garantindo que o 
+conteúdo interno não ultrapasse o tamanho exibido no css. Com o valor **scroll**
+as barras de rolagem seram exibidas independente se o conteúdo esteja ultrapassando 
+a área do elemento ou não.
+
+- `**auto**`- 
+
