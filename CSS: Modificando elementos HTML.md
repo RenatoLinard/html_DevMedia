@@ -227,4 +227,3 @@ conteúdo ultrapassar ou não a área do elemento.
 - `auto` - O **overflow auto** também adiciona uma barra de rolagem ao 
 elemento. No entanto, ela só é exibida se o conteúdo ultrapassar o tamanho 
 determinado.
-
