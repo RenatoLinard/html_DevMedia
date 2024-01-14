@@ -248,3 +248,24 @@ Isso ocorre porque, quando o **overflow-x** ou **overflow-y** não são
 definidos, eles têm o valor **auto**. Dependendo do tamanho do elemento, pode 
 ser necessário a barra de rolagem **auto**. Para resolver esse problema, basta 
 definir a medida **width** ou **height** de modo a comportar na tela sem quebrar.
+
+### Simplificando o overflow-x e overflow-y 
+
+As propriedades **overflow-x** e **overflow-y** podem ser simplificadas 
+por meio da propriedade **overflow**.
+
+```css
+div {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+```
+
+```css
+div {
+    overflow: auto scroll;
+}
+```
+
+Ao simplificar, o primeiro valor refere-se ao **overflow-x** e o segundo ao 
+**overflow-y**.
