@@ -227,3 +227,24 @@ conteúdo ultrapassar ou não a área do elemento.
 - `auto` - O **overflow auto** também adiciona uma barra de rolagem ao 
 elemento. No entanto, ela só é exibida se o conteúdo ultrapassar o tamanho 
 determinado.
+
+## overflow-x e overflow-y - Sintaxe
+
+A propriedade **overflow** afeta tanto a **barra de rolagem vertical** quanto 
+a **horizontal**.
+
+No entanto, quando queremos que o overflow afete apenas uma das **barras de 
+rolagem**, podemos utilizar as propriedades **overflow-x** e **overflow-y**.
+
+O **overflow-x** controla o scroll **horizontal**, adicionando uma 
+barra de rolagem horizontal.
+
+Já o **overflow-y** controla o scroll **vertical**, adicionando uma barra 
+de rolagem vertical.
+
+Em alguns casos, ao utilizar apenas o **overflow-x** ou apenas o 
+**overflow-y**, podem ser exibidas as duas barras de rolagem na tela. 
+Isso ocorre porque, quando o **overflow-x** ou **overflow-y** não são 
+definidos, eles têm o valor **auto**. Dependendo do tamanho do elemento, pode 
+ser necessário a barra de rolagem **auto**. Para resolver esse problema, basta 
+definir a medida **width** ou **height** de modo a comportar na tela sem quebrar.
