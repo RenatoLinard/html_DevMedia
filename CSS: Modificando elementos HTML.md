@@ -269,3 +269,29 @@ div {
 
 Ao simplificar, o primeiro valor refere-se ao **overflow-x** e o segundo ao 
 **overflow-y**.
+
+# Exibindo e Ocultando Elementos
+
+Nesta seção, aprenderemos como lidar e manipular a exibição de elementos no HTML.
+
+## Elementos de Bloco e de Linha
+
+Todo elemento HTML, por padrão, possui um tipo de exibição: **block (bloco)** 
+ou **inline (linha)**.
+
+- Um elemento do tipo **block** é criado sempre após o elemento anterior. 
+Por exemplo, se criarmos dois **títulos**, eles aparecem **um abaixo do outro**. 
+Do mesmo modo, se criarmos duas **divs** com cores diferentes, elas aparecem 
+uma **abaixo da outra**. Além disso, elementos do tipo **block** ocupam toda a 
+largura disponível para eles. Alguns elementos comuns do tipo **block** são as 
+**divs**, os **parágrafos (p)** e os **títulos (h1-h6)**.
+
+- No tipo **inline**, os elementos, por padrão, são criados ao lado de 
+outros elementos. Por exemplo, se criarmos duas **spans**, elas aparecem 
+**lado a lado**. Além disso, elementos do tipo **inline** ocupam apenas a 
+**largura necessária** para exibir seu conteúdo. Alguns elementos comuns do tipo 
+**inline** são o **span**, o **link (a)** e a **imagem (img)**.
+
+Agora que entendemos as diferenças entre os elementos do tipo **block** e 
+**inline**, veja como podemos manipular o tipo de exibição através do **CSS**.
+
