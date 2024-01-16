@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+    background-color: #fff4df;
+}
+
+.tarja-topo, .tarja-bottom {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ff7b00; 
+    text-align: center;
+    border-radius: 32px;
+    font-size: 20px;
+    font-style: italic;
+    color: #fff4df; 
+    font-weight: 700;
+}
+
+.conteudo {
+    width: calc(100% - 90px);
+    overflow-y: scroll;
+    height: 315px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.conteudo p {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.galeria-foto {
+    width: calc(100% - 90px);
+    margin: 0px auto;
+    padding: 0 20px;
+}
+
+.area-fotos {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    margin: 20px auto;
+    padding: 20px 0;
+
+}
+
+.area-fotos img {
+    border-radius: 16px;
+    width: calc(100% / 3);
+    padding: 0 1.5px;
+    width: 250px;
+}
+
