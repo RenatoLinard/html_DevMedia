@@ -295,3 +295,60 @@ outros elementos. Por exemplo, se criarmos duas **spans**, elas aparecem
 Agora que entendemos as diferenças entre os elementos do tipo **block** e 
 **inline**, veja como podemos manipular o tipo de exibição através do **CSS**.
 
+## Contextualizando
+
+```html
+<div>
+    <img src="foto.jpg">
+    <p>Renato</p>
+</div>
+```
+
+No exemplo acima, o nome do usuário aparece abaixo da foto por se tratar 
+de um **parágrafo**, um elemento do tipo **block**.
+
+Podemos alterar esse comportamento através da propriedade **display**, 
+usando o valor **inline**.
+
+```css
+div {
+    display: inline;
+}
+```
+
+A propriedade **display** é capaz de transformar elementos **block** em 
+**inline** e vice-versa.
+
+Agora que fomos contextualizados no assunto, vamos entender como funciona 
+a propriedade **display**.
+
+## Display
+
+Podemos utilizar a propriedade **display** no **CSS** para modificar o 
+**modo de exibição** de um elemento.
+
+A propriedade **display** possui diversos valores, alguns deles são: 
+**inline**, **block**, **none**.
+
+Como comentado anteriormente, o valor **inline** transforma um elemento 
+do tipo block em **inline**.
+
+E o valor **block** transforma um elemento do tipo inline em **block**.
+
+Por fim, temos o valor **none**, que oculta a exibição de um elemento.
+
+O elemento continua existindo, mas não é exibido para o usuário no navegador.
+
+```css
+div {
+ display: inline;
+}
+
+span {
+ display: block;
+}
+
+img {
+ display: none;
+}
+```
