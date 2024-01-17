@@ -352,3 +352,50 @@ img {
  display: none;
 }
 ```
+
+## Visibility
+
+**Visibility** é uma **propriedade** do **CSS** que controla a 
+**visibilidade** de um elemento na tela.
+
+A **visibility** possui dois valores mais usados: **visible** e **hidden**.
+
+**Visible** indica que o elemento está **visível**, sendo esse o 
+**valor padrão** de todo elemento.
+
+```css
+div {
+    visibility: visible;
+}
+```
+
+**Hidden**, por sua vez, deixa o elemento **invisível** na tela.
+
+```css
+div {
+    visibility: hidden;
+}
+```
+
+Apesar da semelhança com a propriedade e valor **display: none**, **visibility** 
+não remove o espaço do elemento da tela; ele apenas o deixa **invisível**.
+
+### Visibility - Sintaxe
+
+A sintaxe é composta pelo nome da **propriedade** e seu **valor**.
+
+```CSS
+div {
+    visibility: visible;
+}
+```
+
+Deixa o elemento visível, e como é o padrão, não é obrigatório utilizá-lo.
+
+```css
+div {
+    visibility: hidden;
+}
+```
+
+Esconde o elemento, mas não remove o espaço na página.
