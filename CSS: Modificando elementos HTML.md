@@ -399,3 +399,17 @@ div {
 ```
 
 Esconde o elemento, mas não remove o espaço na página.
+
+## Opacity
+
+Através do **CSS**, também é possível alterar a opacidade de um elemento HTML, 
+ou seja, seu nível de **transparência**.
+
+Sua sintaxe segue o padrão das demais propriedades citadas anteriormente, com 
+o nome da propriedade e seu valor.
+
+Nesse caso, podemos usar o valor em **porcentagem** ou **escala decimal**.
+
+- `porcentagem` - De 0% a 100%. Quanto menor o valor, mais **transparente** o elemento.
+
+- `escala decimal` - De 0 a 1.0. Quanto maior o valor, menos transparente o elemento.
