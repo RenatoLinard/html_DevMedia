@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dcd9d8;
+}
+
+.topo {
+    width: 100%;
+    height: 48px;
+    background-color: #6d829b;
+    text-align: center;
+}
+
+.topo ul {
+    padding: 0;
+}
+
+.topo li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.topo a {
+    color: white;
+    font-weight: bold;
+}
+
+.back-img {
+    background-image: url('./assets/topo.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    border-radius: 0 0 16px 16px;
+}
+
+.main {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.area {
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.area p {
+    text-align: justify;
+}
+
+.back-img2 {
+    background-image: url('./assets/img_1.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-radius: 32px;
+}
+
+#contato ul {
+    padding: 20px;
+    text-align: center;
+} 
+
+#contato li {
+    display: inline;
+    margin: 0 20px;
+    padding: 15px 10px;
+    border-radius: 32px;
+    background-color: #6d829b;
+}
+
+#contato a {
+    color: white;
+}
