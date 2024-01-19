@@ -457,3 +457,20 @@ O mesmo vale para a **altura**.
 Com o **box-sizing: border-box**, as medidas do elemento passam a ser 
 respeitadas, e os valores do **padding** e **border** passam a ser 
 **incluídos** no valor da largura.
+
+## Sintaxe 
+
+O **box-sizing** é uma propriedade do **CSS** e sua **sintaxe** segue o mesmo 
+padrão das demais, com o **nome** e **valor**.
+
+```css
+div {
+    box-sizing: border-box;
+}
+```
+
+O valor mais utilizado é o **border-box**, que faz com que as medidas do 
+elemento sejam respeitadas.
+
+Existe também o **content-box**, que é o **valor padrão**, por isso seu 
+uso não é necessário.
