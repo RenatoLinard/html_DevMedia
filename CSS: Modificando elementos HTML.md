@@ -413,3 +413,47 @@ Nesse caso, podemos usar o valor em **porcentagem** ou **escala decimal**.
 - `porcentagem` - De 0% a 100%. Quanto menor o valor, mais **transparente** o elemento.
 
 - `escala decimal` - De 0 a 1.0. Quanto maior o valor, menos transparente o elemento.
+
+# Box-Sizing
+
+Nesta sessão, vamos entender como o **CSS** calcula o tamanho de um elemento.
+
+## Contextualizando
+
+Considere que temos uma página com uma imagem de capa que utiliza **toda a 
+largura** da tela.
+
+Entretanto, precisamos adicionar um **padding** de 20px e um 
+**background-color** nessa imagem.
+
+Isso poderia quebrar a página, pois a **largura** da tela seria 
+ultrapassada, criando uma barra de rolagem horizontal.
+
+Esse problema pode ser resolvido com o **calc**, mas existe uma maneira 
+mais simples: o **box-sizing**.
+
+## O Que é?
+
+Por padrão, o **tamanho do elemento** leva em conta sua **altura**, 
+**largura**, **padding** e **border**.
+
+```css
+div {
+    width: 350px;
+    padding: 20px;
+}
+```
+
+Repare que, mesmo tendo definido a largura como 350px, o elemento cresceu e 
+ficou com um total de 390px.
+
+Para impedir que o elemento **cresça**, utilizamos o **box-sizing**, fazendo 
+com que o **padding** seja incluído na largura total.
+
+Internamente, o **CSS** vai **subtrair** o **padding** do width.
+
+O mesmo vale para a **altura**.
+
+Com o **box-sizing: border-box**, as medidas do elemento passam a ser 
+respeitadas, e os valores do **padding** e **border** passam a ser 
+**incluídos** no valor da largura.
