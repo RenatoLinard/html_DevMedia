@@ -514,3 +514,81 @@ Já um valor **negativo** no **eixo x** move a sombra para a **esquerda**.
 No **eixo y**, um **valor positivo** move a sombra para **baixo**.
 
 Já um **valor negativo** no **eixo y** move a sombra para **cima**.
+
+## Desfoque
+
+É possível aplicar um efeito de **desfoque** à sombra adicionando um terceiro 
+valor ao **box-shadow**.
+
+```css
+img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 20px 20px 10px;
+}
+```
+
+Quanto maior o **valor**, maior o **desfoque**.
+
+## Expansão 
+
+Por padrão, a sombra tem o **mesmo tamanho** do elemento.
+
+É possível **expandir** a sombra em todas as direções, adicionando um quarto 
+valor ao **box-shadow**.
+
+```css
+img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 0 30px;
+}
+```
+
+Quando adicionamos uma expansão, a sombra aumenta de **tamanho** em 
+**todas as direções**.
+
+O uso da expansão é opcional, mas quando for utilizado, é necessário informar 
+o valor do desfoque, mesmo que seja **0**.
+
+## Cor 
+
+Por padrão, a sombra tem a **cor preta**.
+
+É possível alterar a **cor da sombra** preenchendo um **quinto** valor com 
+a **cor desejada**.
+
+```css
+img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 20px 20px 0 0 blue;
+}
+```
+
+Já vimos como adicionar sombras externas em elementos; agora, vamos ver 
+como utilizar sombras internas.
+
+## Inset 
+
+Por padrão, o **box-shadow** cria uma sombra com o tamanho do elemento atrás dele.
+
+O **valor inset** modifica isso, criando a sombra na **frente** do elemento 
+com a **expansão** informada.
+
+```css
+div {
+    width: 450px;
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    box-shadow: 0 0 30px 20px black inset;
+}
+```
+
+Se **expandirmos** uma **sombra inset** em 20px, ela contará esse tamanho 
+**a partir das bordas** do elemento.
+
+O valor **inset** funciona com **divs**, **spans** e outros elementos, **mas não com img**.
+
+O valor **inset** pode ser colocado no **início** ou no **final** do **box-shadow**.
