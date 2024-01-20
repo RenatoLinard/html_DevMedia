@@ -474,3 +474,43 @@ elemento sejam respeitadas.
 
 Existe também o **content-box**, que é o **valor padrão**, por isso seu 
 uso não é necessário.
+
+# Box-shadow
+
+O **box-shadow** é uma propriedade **CSS** que permite adicionar **sombra** em 
+volta dos elementos.
+
+A **sombra** pode ser aplicada a qualquer elemento **HTML**, como **divs**, 
+**spans** e até mesmo em **img**.
+
+## Deslocamento
+
+Para o **box-shadow** funcionar, ele precisa receber dois valores, o 
+**deslocamento x** e o **deslocamento y**.
+
+```css
+img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 20px 0;
+}
+```
+
+O primeiro valor refere-se ao **deslocamento x (horizontal)**, enquanto o 
+segundo se refere ao **deslocamento y (vertical)**.
+
+**Deslocamento** é o **valor** que define a **posição** em que a sombra vai aparecer.
+
+O **valor padrão** dos eixos **x** e **y** é **0**, o que significa que a 
+sombra está **atrás** do elemento.
+
+Quando **deslocamos** a sombra, sua **posição** é ajustada a partir 
+da **posição do elemento**.
+
+No eixo **x**, o **valor positivo** move a sombra para a **direita**.
+
+Já um valor **negativo** no **eixo x** move a sombra para a **esquerda**.
+
+No **eixo y**, um **valor positivo** move a sombra para **baixo**.
+
+Já um **valor negativo** no **eixo y** move a sombra para **cima**.
