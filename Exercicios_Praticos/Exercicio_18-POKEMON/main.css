@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6E199;
+    margin: 0;
+    padding: 0;
+}
+
+.topo, .rodape {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #F20519;
+    box-shadow: 0 0 20px 5px #BF0404 inset;
+}
+
+.topo span {
+    font-family: 'Rubik Vinyl', system-ui;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.capa {
+    width: 100%;
+    height: 300px;
+    background-image: url('./assets/capa.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0 0 10px 5px #BF0404 inset;
+}
+
+.conteudo {
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.conteudo p {
+    text-align: justify;
+}
+
+.area-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px;
+    border-radius: 16px;
+    color: white;
+}
+
+.card img {
+    width: 150px;
+    margin: 20px 0;
+}
+
+
+.card li {
+    text-align: justify;
+    margin: 15px;
+}
+
+#bulba {
+    background-color: #4e8624;
+    box-shadow: 0 0 20px 20px #1b6427 inset;
+}
+
+#bulba img {
+    margin: 40px 0;
+}
+
+#charmander {
+    background-color: #f47932;
+    box-shadow: 0 0 20px 20px #e45932 inset;
+}
+
+#pikachu {
+    background-color: #f9e603;
+    box-shadow: 0 0 20px 20px #e8b10e inset;
+}
+
+.scroll {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.scroll img {
+    width: 250px;
+    margin: 20px 20px 40px 0;
+    border-radius: 16px;
+    box-shadow: 20px 20px 20px black;
+
+}
+
+.rodape span {
+    font-family: 'Rubik Vinyl', system-ui;
+    color: white;
+    font-size: 25px;
+}
+
