@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #fbe4d8;
+}
+
+.capa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 120px 80px 120px 80px;
+    min-height: 400px;
+    background-image: url('./assets/banner.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.card-banner {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fbe4d8;
+    max-height: 1024px;
+    padding: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+    box-shadow: 0 8px 10px 10px #0000005c;
+}
+
+.card-banner span {
+    font-weight: bold;
+    color: #522b5b;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0 40px 0;
+
+}
