@@ -414,6 +414,17 @@ Nesse caso, podemos usar o valor em **porcentagem** ou **escala decimal**.
 
 - `escala decimal` - De 0 a 1.0. Quanto maior o valor, menos transparente o elemento.
 
+- `adição de cor` - Podemos adicionar no `background-color` mais dois digitos 
+que seram reponsavel pela opcidade da cor de fundo de um elemento.
+
+```css
+div {
+    background-color: #522b5b80
+}
+```
+
+Esses ultimos dois digitos deixam a cor do elemento 80% mais transparente.
+
 # Box-Sizing
 
 Nesta sessão, vamos entender como o **CSS** calcula o tamanho de um elemento.
