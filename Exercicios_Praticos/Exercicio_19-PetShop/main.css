@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: 'Noto Sans', sans-serif;
     background-color: #fbe4d8;
 }
@@ -12,10 +13,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 120px 80px 120px 80px;
-    min-height: 400px;
+    padding: 140px 80px 120px 80px;
+    box-sizing: border-box;
     background-image: url('./assets/banner.png');
-    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -28,15 +30,168 @@ body {
     max-height: 1024px;
     padding: 40px;
     border-radius: 5px;
-    opacity: 0.9;
-    box-shadow: 0 8px 10px 10px #0000005c;
+    opacity: 90%;
+    box-shadow: 0 8px 32px  #190019;
 }
 
 .card-banner span {
-    font-weight: bold;
+    font-weight: 900;
     color: #522b5b;
     font-size: 60px;
     text-align: center;
-    margin: 0 0 40px 0;
+    margin-bottom: 40px;
 
+}
+
+.link-contato {
+    width: 200px;
+    text-align: center;
+    background-color: #522b5b;
+    padding: 10px 25px 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 50px #522b5b inset;
+}
+
+.link-contato a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link-contato img {
+    width: 20px;
+}
+
+.conteudo {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 120px 80px;
+}
+
+.conteudo h3 {
+    font-size: 36px;
+    color: #522b5b;
+    margin: 0 0 0 45px;
+    text-align: center;
+}
+
+.conteudo ul {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #522b5b;
+    text-align: justify;
+}
+
+.conteudo li {
+    font-size: 20px;
+    margin 0 0 20px 0;
+}
+
+.conteudo span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.secao-img {
+    display: flex;
+    justify-content: center;
+}
+
+.secao-img img {
+    width: 150px;
+    height: 240px;
+    border-radius: 8px;
+    box-shadow: 3px 6px 10px 6px #522b5b;
+}
+
+.faixa {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 80px;
+    background-color: #522b5b;
+    border-radius: 16px;
+    
+}
+
+.faixa p {
+    max-width: 800px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.faixa span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo-faixa {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-faixa img {
+    width: 50px;
+    margin: 0 20px;
+}
+
+.secao-marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 120px 80px;
+    box-sizing: border-box;
+}
+
+.secao-marcas h3 {
+    font-size: 36px;
+    color: #522b5b;
+    margin: 0 0 45px 0 ;
+}
+
+.secao-marcas img {
+    width: 800px;
+    margin: 0;
+}
+
+.localizacao {
+    width: 100%;
+    padding: 120px 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.localizacao h3 {
+    font-size: 36px;
+    color: #522b5b;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.localizacao p {
+    font-size: 20px;
+    color: #522b5b;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.rodape {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #522b5b;
+}
+
+.rodape p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
 }
