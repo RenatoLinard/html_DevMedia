@@ -11,3 +11,4 @@ Este repositório contém anotações pessoais e exemplos referentes ao curso de
 - [**CSS: Estilização através de seletores**](https://github.com/RenatoLinard/html_DevMedia/blob/main/CSS%3A%20Estiliza%C3%A7%C3%A3o%20atrav%C3%A9s%20de%20seletores.md)
 - [**CSS: Background- Preenchendo o fundo de um elemento**](https://github.com/RenatoLinard/html_DevMedia/blob/main/CSS%3A%20Background%20-%20Preenchendo%20o%20fundo%20de%20um%20elemento.md)
 - [**CSS: Modificando elementos HTML**](https://github.com/RenatoLinard/html_DevMedia/blob/main/CSS%3A%20Modificando%20elementos%20HTML.md)
+- [**CSS: Postion Fixed**](https://github.com/RenatoLinard/html_DevMedia/blob/main/CSS%3A%20Position%20Fixed.md)
