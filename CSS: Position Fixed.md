@@ -49,3 +49,45 @@ página. Ao atribuir o valor `0` para `right`, o elemento ficou colado na borda 
 
 Caso utilizássemos outro valor para a propriedade `right`, como por exemplo, 
 `100px`, o elemento ficaria a essa distância da borda direita.
+
+# Movendo Elementos na Parte Inferior da Página
+
+Para posicionar um elemento na parte inferior da tela, utilizaremos a 
+propriedade **bottom**.
+
+```css
+div {
+    position: fixed;
+    border: 1px solid black;
+    right: 100px;
+    bottom: 35px;
+}
+```
+
+Dessa forma, a `div` está fixada a **100px** da borda **direita** e **35px** 
+da borda inferior da página. Mesmo utilizando o scroll da página, a `div` 
+permanece fixa na mesma posição.
+
+# Conhecendo as Propriedades Top e Left
+
+As propriedades **top** e **left** também são utilizadas para mover 
+elementos com **position**.
+
+```css
+div {
+    position: fixed;
+    top: 450px;
+    left: 300px;
+    border: 1px solid black;
+}
+```
+
+Agora, a `div` está posicionada a **450px** do topo e **300px** da borda esquerda.
+
+## Funcionamento das Propriedades
+
+Nesta sessão, faremos um resumo das propriedades **top, right, bottom, left**.
+
+As propriedades **top** e **bottom** são responsáveis por mover o elemento 
+com **position** na vertical. Enquanto as propriedades **right** e **left** 
+são responsáveis por movê-lo na horizontal.
