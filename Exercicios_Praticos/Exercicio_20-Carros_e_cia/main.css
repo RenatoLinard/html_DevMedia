@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #1e2328f0;
+    color: #f5b301;
+    border-radius: 0 0 8px 16px;
+    position: fixed;
+    top: 0;
+    
+}
+
+.topo h1 {
+    font-size: 27px;
+    margin: 0;
+}
+
+.topo li {
+    display: inline;
+    margin-right: 7px;
+}
+
+.topo ul {
+    padding: 0;
+    margin: 5px 0 10px 0;
+}
+
+.topo a {
+    color: #f5b301;
+    font-weight: 700;
+}
+
+.back_parallax {
+    width: 100%;
+    height: 610px;
+    box-sizing: border-box;
+    background-image: url('./assets/capa.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.conteudo {
+    text-align: center;
+    width: 100%;
+    max-width: 1024px;
+    padding: 40px 80px;
+}
+
+.conteudo span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.conteudo h2 {
+    font-size: 25px;
+}
+
+.conteudo img {
+    width: 450px;
+}
+
+.conteudo p {
+    text-align: justify;
+}
+
+.conteudo span {
+    color: #f5b301;
+}
