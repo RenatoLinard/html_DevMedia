@@ -43,3 +43,11 @@ h2 {
 A propriedade **position** com o valor **absolute**, ao contrário do valor 
 **fixed**, não mantém o elemento fixo na tela quando o usuário utiliza a 
 barra de rolagem. Isso permite que o elemento se mova livremente na página.
+
+# Position Absolute Resolve Tudo?
+
+Como vimos até aqui, podemos utilizar a propriedade **position** com o 
+valor **absolute** para remover elementos do fluxo padrão do HTML e 
+reposicioná-los em qualquer local da página. No entanto, se utilizarmos 
+somente o **position: absolute** para posicionar um elemento, qualquer 
+alteração no código poderá comprometer o layout da página.
