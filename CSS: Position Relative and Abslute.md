@@ -16,3 +16,30 @@ se mova livremente na página, independentemente da ordem em que foi escrita no 
 
 Isso é útil quando desejamos personalizar nossas páginas, como colocar a 
 imagem sobre outro elemento, por exemplo.
+
+# Movendo Elementos Livremente na Página
+
+Para movimentar um elemento livremente na página, utilizamos a propriedade 
+**position** com o valor **absolute**.
+
+```css
+h2 {
+    position: absolute;
+}
+```
+
+Ao utilizar **position: absolute**, juntamente com as propriedades **top**, 
+**bottom**, **left** e **right**, podemos posicionar um elemento de forma independente na página.
+
+```css
+h2 {
+    color: red;
+    position: absolute;
+    top: 125px;
+    left: 110px;
+}
+```
+
+A propriedade **position** com o valor **absolute**, ao contrário do valor 
+**fixed**, não mantém o elemento fixo na tela quando o usuário utiliza a 
+barra de rolagem. Isso permite que o elemento se mova livremente na página.
