@@ -51,3 +51,18 @@ valor **absolute** para remover elementos do fluxo padrão do HTML e
 reposicioná-los em qualquer local da página. No entanto, se utilizarmos 
 somente o **position: absolute** para posicionar um elemento, qualquer 
 alteração no código poderá comprometer o layout da página.
+
+# Position Relative
+
+Nesta sessão, vamos conhecer o **position: relative** e entender como ele é 
+útil para posicionar um elemento com o **position: absolute**.
+
+Anteriormente, mencionamos que se utilizarmos apenas o **position: absolute** 
+para posicionar um elemento, qualquer alteração no código pode quebrar o 
+layout da página.
+
+Mesmo dentro de uma **div**, o elemento não respeitará os limites 
+estabelecidos quando utilizado apenas o **position: absolute**, pois ele 
+sempre se posicionará de acordo com as bordas da página.
+
+É aqui que entra o **position: relative**.
