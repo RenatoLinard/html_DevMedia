@@ -66,3 +66,44 @@ estabelecidos quando utilizado apenas o **position: absolute**, pois ele
 sempre se posicionará de acordo com as bordas da página.
 
 É aqui que entra o **position: relative**.
+
+## Usando o **Relative** para Limitar o **Absolute**
+
+A propriedade **position** com o valor **relative** também permite que um 
+elemento seja reposicionado na página, mas, diferentemente dos valores 
+**fixed** e **absolute**, não remove o elemento do fluxo padrão do HTML.
+
+```css
+div {
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: white;
+    width: 320px;
+    height: 400px;
+    padding: 10px;
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    top: -25px;
+    right: -25px;
+}
+```
+
+Neste exemplo, estamos fazendo com que a **img** seja sempre posicionada de 
+acordo com os limites da **div**. Ou seja, a **img** passa a estar 
+posicionada em relação à **div** em que está contida, e não em relação à página.
+
+## Position Relative Resolveu o Problema?
+
+Com o **absolute**, podemos posicionar um elemento em qualquer lugar da 
+página, tendo as bordas da página como referência. Quando utilizamos o 
+**relative** no elemento pai, o elemento com **absolute** passa a ser 
+posicionado a partir das bordas do pai.
+
+Podemos dizer que usar o **relative** no elemento pai é como definir um 
+**mapa** pelo qual o elemento com **absolute** se moverá. Se o elemento 
+pai não estiver com **relative**, o mapa para o elemento com **absolute** 
+passa a ser a página inteira.
