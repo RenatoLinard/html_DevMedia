@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Protest Riot', sans-serif;
+    box-sizing: border-box;
+}
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 5px 250px;
+    position: fixed;
+    top: 0;
+    background: rgba( 96, 72, 41, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.topo img {
+    width: 50px;
+    height: 50px;
+}
+
+.topo li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.topo a {
+    font-size: 18px;
+    color: #c4a47c;
+    text-decoration: none;
+    box-shadow: 15px 5px 10px black;
+    border-radius: 50%;
+}
+
+.capa {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color:#fff;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/capa.png');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.capa h1 {
+    font-size: 100px;
+    color: rgba( 255, 255, 255, 0.7);
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.conteudo h2 {
+    font-size: 18px;
+    color: #c4a47c;
+    font-weight: normal;
+}
+
+.conteudo p {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 1024px;
+    padding: 0 20px;
+    line-height: 30px;
+    color: #666;
+}
+
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/img-1.png');
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-radius: 32px;
+}
+
+.parallax1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/img-2.png');
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-radius: 32px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    background: rgba( 28, 21, 10, 0.85 );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.localizacao {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/localizacao.png');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.localizacao-titulo {
+    width: 500px;
+    padding: 10px;
+}
+
+.localizacao iframe {
+    border-radius: 32px;
+}
+
+.dados {
+    font-size: 16px;
+    width: 500px;
+    padding: 10px;
+}
+
+.horario {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/horario.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.horario h2 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.horario ul {
+    padding: 0;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.horario li {
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 5px;
+}
+
+.tarja {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 5vw;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgba( 0, 0, 0, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.tarja img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+}
+
