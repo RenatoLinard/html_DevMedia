@@ -55,7 +55,7 @@ mais apropriado organizá-los em formato de listas.
 As tabelas podem ser estilizadas por meio do **CSS**, assim como outros 
 elementos **HTML**, proporcionando uma apresentação mais atraente na página.
 
-# Table, tr, td, th 
+# TABLE, TR, TH, TD
 
 Para criar uma tabela em HTML, são necessárias pelo menos 4 tags.
 
@@ -106,6 +106,41 @@ e facilidade de leitura do código, é recomendável escrevê-las sempre nessa o
 
 ```html
 <table>
+    <thead>
+        <tr>
+            <th>Música</th>
+            <th>Artista</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>First Date</td>
+            <td>Blink-182</td>
+        </tr>
+        <tr>
+            <td>American Idiot</td>
+            <td>Green Day</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Rock</td>
+            <td>Estados Unidos</td>
+        </tr>
+    </tfoot>
+</table>
+```
+
+# CAPTION
+
+Nesta seção, aprenderemos como adicionar títulos às tabelas.
+
+Dentro da tag **table**, utilizamos a tag **caption** para atribuir um título 
+à nossa tabela.
+
+```html
+<table>
+    <caption>Tabela de músicas</caption>
     <thead>
         <tr>
             <th>Música</th>
