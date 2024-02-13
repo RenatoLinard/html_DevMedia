@@ -84,3 +84,49 @@ Para criar uma tabela em HTML, são necessárias pelo menos 4 tags.
 
 As tags **<th>** e **<td>** não diferem apenas visualmente, mas também em 
 termos de semântica, indicando conteúdo de cabeçalho e conteúdo, respectivamente.
+
+# THEAD, TBODY, TFOOT
+
+Nesta seção, abordaremos como dividir nossa tabela em diferentes partes, como 
+o **thead**, **tbody**, **tfoot**.
+
+Ao criar uma tabela em **HTML**, é possível definir cada área da tabela usando 
+uma tag específica.
+
+- `<thead>` - Delimita o conteúdo do cabeçalho 
+- `<tbody>` - Delimita o corpo da tabela 
+- `<tfoot>` - Delimita o conteúdo de rodapé 
+
+Para uma melhor organização, é importante que a estrutura da tabela siga 
+sempre a ordem: **thead**, **tbody**, **tfoot**.
+
+As tags são renderizadas nas suas respectivas posições, independentemente 
+da ordem em que são escritas. No entanto, para uma melhor organização semântica 
+e facilidade de leitura do código, é recomendável escrevê-las sempre nessa ordem.
+
+```html
+<table>
+    <thead>
+        <tr>
+            <th>Música</th>
+            <th>Artista</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>First Date</td>
+            <td>Blink-182</td>
+        </tr>
+        <tr>
+            <td>American Idiot</td>
+            <td>Green Day</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Rock</td>
+            <td>Estados Unidos</td>
+        </tr>
+    </tfoot>
+</table>
+```
