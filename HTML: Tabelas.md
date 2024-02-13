@@ -44,5 +44,43 @@ Os leitores de telas respeitam ordens das linhas e colunas estabelicidos. Por is
 
 ## Quando não devemos usar?
 
+Como mencionado anteriormente, as tabelas são úteis para organizar dados. 
+No entanto, há casos em que seu uso não é indicado.
 
- 
+Um exemplo disso é quando os dados consistem em apenas uma coluna, sendo 
+mais apropriado organizá-los em formato de listas.
+
+## Estilizando tabelas 
+
+As tabelas podem ser estilizadas por meio do **CSS**, assim como outros 
+elementos **HTML**, proporcionando uma apresentação mais atraente na página.
+
+# Table, tr, td, th 
+
+Para criar uma tabela em HTML, são necessárias pelo menos 4 tags.
+
+- `<table>` - Cria a tabela 
+- `<tr>` - Cria uma linha na tabela 
+- `<th>` - Cria uma coluna de cabeçalho 
+- `<td>` - Cria uma coluna de conteúdo
+
+```html
+<table>
+    <tr>
+        <th>Música</th>
+        <th>Artista</th>
+    </tr>
+
+    <tr>
+        <td>First Date</td>
+        <td>Blink-182</td>
+    </tr>
+    <tr>
+        <td>Famous last words</td>
+        <td>My Chemical Romance</td>
+    </tr>
+</table>
+```
+
+As tags **<th>** e **<td>** não diferem apenas visualmente, mas também em 
+termos de semântica, indicando conteúdo de cabeçalho e conteúdo, respectivamente.
