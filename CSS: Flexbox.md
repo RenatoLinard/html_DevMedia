@@ -1,5 +1,20 @@
-# Introdução 
+# Introdução
 
-Até esse momento utilizamos a propriedade **CSS** `position` para posicionar
+Até o momento, temos utilizado a propriedade **CSS** `position` para posicionar
 elementos na página.
- 
+
+No entanto, essa abordagem torna-se limitada quando lidamos com a estruturação 
+de páginas que demandam layouts mais complexos, especialmente quando envolvem 
+múltiplos containers.
+
+Para solucionar esse desafio, recorremos a uma ferramenta chamada 
+**CSS Flexbox**, que é a principal abordagem para posicionar elementos com **CSS**.
+
+## Revisando o CSS position
+
+Até agora, temos utilizado a propriedade **CSS position** para posicionar 
+elementos na página.
+
+Essa propriedade é a forma mais simples de posicionar elementos na página.
+
+Contudo, seu uso torna-se limitado quando lidamos com múltiplos containers na página.
