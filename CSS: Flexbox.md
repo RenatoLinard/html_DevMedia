@@ -25,3 +25,22 @@ ajusta adequadamente ao tamanho da tela, podendo resultar na perda do layout con
 
 # CSS Flexbox
 
+## Introdução ao Flexbox
+
+O **CSS Flexbox** é a abordagem principal para posicionar elementos dentro de um container.
+
+Com ele, podemos posicionar todos os elementos de uma só vez, proporcionando maior flexibilidade 
+no layout.
+
+O Flexbox permite posicionar os elementos de diversas formas.
+
+```css
+.container {
+    display: flex;
+    flex-direction: column, row;
+}
+```
+
+Ao utilizar o Flexbox, o elemento com a classe "container" terá seus filhos dispostos em uma coluna 
+ou linha, conforme definido pela propriedade `flex-direction`. Essa flexibilidade oferecida pelo Flexbox 
+simplifica significativamente o posicionamento dos elementos, tornando o código mais limpo e eficiente.
