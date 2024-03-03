@@ -60,4 +60,6 @@ maneira otimizada em diferentes contextos.
 
 ## Aplicando o flexbox nos cards
 
+A ferramenta **flexbox** pode ser utilizada para para posicionar elementos do 
+container pai, quanto para os elementos filhos dentro dos cards.
 
