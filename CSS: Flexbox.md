@@ -63,3 +63,8 @@ maneira otimizada em diferentes contextos.
 A ferramenta **flexbox** pode ser utilizada para para posicionar elementos do 
 container pai, quanto para os elementos filhos dentro dos cards.
 
+# Propriedades do Flexbox
+
+## display: flex e flex-direction
+
+
