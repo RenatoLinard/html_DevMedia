@@ -54,3 +54,4 @@ O Flexbox oferece uma maneira fácil e eficaz de modelar esse tipo de página, g
 mais consistente em diversas plataformas e dispositivos. Essa capacidade de adaptação é crucial para acompanhar a 
 diversidade de tamanhos de tela e garantir que o conteúdo seja apresentado de maneira otimizada em diferentes contextos.
 
+## Aplicando o flexbox nos cards
