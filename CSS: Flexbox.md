@@ -27,10 +27,11 @@ ajusta adequadamente ao tamanho da tela, podendo resultar na perda do layout con
 
 ## Introdução ao Flexbox
 
-O **CSS Flexbox** é a abordagem principal para posicionar elementos dentro de um container.
+O **CSS Flexbox** é a abordagem principal para posicionar elementos dentro de 
+um container.
 
-Com ele, podemos posicionar todos os elementos de uma só vez, proporcionando maior flexibilidade 
-no layout.
+Com ele, podemos posicionar todos os elementos de uma só vez, proporcionando 
+maior flexibilidade no layout.
 
 O Flexbox permite posicionar os elementos de diversas formas.
 
@@ -41,17 +42,22 @@ O Flexbox permite posicionar os elementos de diversas formas.
 }
 ```
 
-Ao utilizar o Flexbox, o elemento com a classe "container" terá seus filhos dispostos em uma coluna 
-ou linha, conforme definido pela propriedade `flex-direction`. Essa flexibilidade oferecida pelo Flexbox 
-simplifica significativamente o posicionamento dos elementos, tornando o código mais limpo e eficiente.
+Ao utilizar o Flexbox, o elemento com a classe "container" terá seus filhos 
+dispostos em uma coluna ou linha, conforme definido pela propriedade `flex-direction`. 
+Essa flexibilidade oferecida pelo Flexbox simplifica significativamente o 
+posicionamento dos elementos, tornando o código mais limpo e eficiente.
 
 ## Páginas Flexíveis
 
-Atualmente, a construção de páginas flexíveis tornou-se comum, ou seja, páginas que se adaptam a diferentes 
-tipos de telas e conteúdos.
+Atualmente, a construção de páginas flexíveis tornou-se comum, ou seja, 
+páginas que se adaptam a diferentes tipos de telas e conteúdos.
 
-O Flexbox oferece uma maneira fácil e eficaz de modelar esse tipo de página, garantindo uma experiência de usuário 
-mais consistente em diversas plataformas e dispositivos. Essa capacidade de adaptação é crucial para acompanhar a 
-diversidade de tamanhos de tela e garantir que o conteúdo seja apresentado de maneira otimizada em diferentes contextos.
+O Flexbox oferece uma maneira fácil e eficaz de modelar esse tipo de página, 
+garantindo uma experiência de usuário mais consistente em diversas plataformas 
+e dispositivos. Essa capacidade de adaptação é crucial para acompanhar a 
+diversidade de tamanhos de tela e garantir que o conteúdo seja apresentado de 
+maneira otimizada em diferentes contextos.
 
 ## Aplicando o flexbox nos cards
+
+
