@@ -22,3 +22,6 @@ desejemos alinhar os cards horizontalmente, seria necessário escrever vários
 códigos para alcançar o resultado desejado. Essa abordagem não apenas demanda 
 mais código, mas também compromete a responsividade do layout, pois não se 
 ajusta adequadamente ao tamanho da tela, podendo resultar na perda do layout concebido.
+
+# CSS Flexbox
+
