@@ -119,5 +119,18 @@ Ao aplicarmos **`display: flex`** à classe "container", os elementos filhos (bo
 serão dispostos lado a lado, formando um layout mais fluido e adequado. Essa é apenas uma das 
 muitas possibilidades oferecidas pelo Flexbox para aprimorar o posicionamento de elementos em uma página.
 
+## Ajustando a largura dos cards com **display: flex**
+
+Um ponto importante no uso do **display: flex** é o ajuste da largura dos elementos (cards).
+
+Por padrão os elementos são ajustados (comprimidos) automaticamente.
+
+Se a largura total não for suficiente, os elementos por padrão serão comprimidos para caber no container.
+
+## flex-direction
+
+
+
+
 
 
