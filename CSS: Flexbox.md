@@ -67,4 +67,57 @@ container pai, quanto para os elementos filhos dentro dos cards.
 
 ## display: flex e flex-direction
 
+# `display: flex`: A Base do Flexbox
+
+A propriedade **`display: flex`** é fundamental ao utilizar a ferramenta **Flexbox**.
+
+Anteriormente, já exploramos a propriedade **`display`** em contextos mais simples:
+
+```css
+.container {
+    display: block;
+    display: inline;
+    display: none;
+}
+```
+
+Essa propriedade possibilita a alteração do **modo de exibição** padrão do elemento, 
+influenciando seu comportamento no layout.
+
+## Alinhando Elementos Lado a Lado
+
+No exemplo a seguir, empregaremos a ferramenta **Flexbox** para posicionar os cards lado a lado:
+
+```html
+<body>
+    <div class="container">
+        <div class="box1">Imagem Produto 1</div>
+        <div class="box2">Imagem Produto 2</div>
+        <div class="box3">Imagem Produto 3</div>
+    </div>
+</body>
+```
+
+```css
+.container {
+    padding: 40px 20px 20px;
+    background-color: black;
+    display: flex;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+}
+```
+
+Ao aplicarmos **`display: flex`** à classe "container", os elementos filhos (box1, box2, box3) 
+serão dispostos lado a lado, formando um layout mais fluido e adequado. Essa é apenas uma das 
+muitas possibilidades oferecidas pelo Flexbox para aprimorar o posicionamento de elementos em uma página.
+
+
 
