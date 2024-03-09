@@ -67,70 +67,18 @@ container pai, quanto para os elementos filhos dentro dos cards.
 
 ## display: flex e flex-direction
 
-# `display: flex`: A Base do Flexbox
+Nessa sessão aprederemos sobre o ```display: flex``` e como ele é utilizado para posicionar os elementos.
 
-A propriedade **`display: flex`** é fundamental ao utilizar a ferramenta **Flexbox**.
+O **display: flex** é a propriedade mais simples relacionada ao uso da ferramenta flexbox.
 
-Anteriormente, já exploramos a propriedade **`display`** em contextos mais simples:
+### Revisando a propriedade display 
 
-```css
-.container {
-    display: block;
-    display: inline;
-    display: none;
-}
-```
+Até o momento utilizamos 3 valores da propriedade ** display**: **inline**, **block**, **none**.
 
-Essa propriedade possibilita a alteração do **modo de exibição** padrão do elemento, 
-influenciando seu comportamento no layout.
+Com o display podemos alterar o modo de exibição padrão de um elemento.
 
-## Alinhando Elementos Lado a Lado
-
-No exemplo a seguir, empregaremos a ferramenta **Flexbox** para posicionar os cards lado a lado:
-
-```html
-<body>
-    <div class="container">
-        <div class="box1">Imagem Produto 1</div>
-        <div class="box2">Imagem Produto 2</div>
-        <div class="box3">Imagem Produto 3</div>
-    </div>
-</body>
-```
-
-```css
-.container {
-    padding: 40px 20px 20px;
-    background-color: black;
-    display: flex;
-}
-
-.box1,
-.box2,
-.box3 {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    border: 1px solid gray;
-}
-```
-
-Ao aplicarmos **`display: flex`** à classe "container", os elementos filhos (box1, box2, box3) 
-serão dispostos lado a lado, formando um layout mais fluido e adequado. Essa é apenas uma das 
-muitas possibilidades oferecidas pelo Flexbox para aprimorar o posicionamento de elementos em uma página.
-
-## Ajustando a largura dos cards com **display: flex**
-
-Um ponto importante no uso do **display: flex** é o ajuste da largura dos elementos (cards).
-
-Por padrão os elementos são ajustados (comprimidos) automaticamente.
-
-Se a largura total não for suficiente, os elementos por padrão serão comprimidos para caber no container.
-
-## flex-direction
-
-
-
-
+- **display: inline:** faz com os elementos sejam exibidos lado a lado.
+- **dislay: block:** faz com que os elementos sejam exibidos um abaixo do outro.
+- ** display: none:** faz com que o elemento não seja exibido na tela.
 
 
