@@ -79,6 +79,6 @@ Com o display podemos alterar o modo de exibição padrão de um elemento.
 
 - **display: inline:** faz com os elementos sejam exibidos lado a lado.
 - **dislay: block:** faz com que os elementos sejam exibidos um abaixo do outro.
-- ** display: none:** faz com que o elemento não seja exibido na tela.
+- **display: none:** faz com que o elemento não seja exibido na tela.
 
 
